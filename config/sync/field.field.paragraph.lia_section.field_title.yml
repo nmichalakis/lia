@@ -1,0 +1,19 @@
+uuid: cdfb22c1-387d-43ec-9d94-2ffb5bf4775c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.lia_section
+id: paragraph.lia_section.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: lia_section
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

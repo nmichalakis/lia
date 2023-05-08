@@ -1,0 +1,10 @@
+uuid: bd0111f2-5972-4f94-bb6b-75ae48c1e7ef
+langcode: en
+status: true
+dependencies: {  }
+id: lia_news
+label: 'Lia News'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

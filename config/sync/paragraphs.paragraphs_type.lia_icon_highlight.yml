@@ -1,0 +1,10 @@
+uuid: 22ecd53a-ecd0-40e1-bb6d-a8aedb05e402
+langcode: en
+status: true
+dependencies: {  }
+id: lia_icon_highlight
+label: 'Lia Icon Highlight'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

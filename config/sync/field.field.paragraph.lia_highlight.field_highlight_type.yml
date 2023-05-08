@@ -1,0 +1,23 @@
+uuid: 47f29442-103e-4246-966a-8d305f19e8bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_highlight_type
+    - paragraphs.paragraphs_type.lia_highlight
+  module:
+    - options
+id: paragraph.lia_highlight.field_highlight_type
+field_name: field_highlight_type
+entity_type: paragraph
+bundle: lia_highlight
+label: 'Highlight Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: simple
+default_value_callback: ''
+settings: {  }
+field_type: list_string

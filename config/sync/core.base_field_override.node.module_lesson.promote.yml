@@ -1,0 +1,24 @@
+uuid: ad456edb-50a4-46be-99d6-3704172cad94
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.module_lesson
+_core:
+  default_config_hash: DDKyDhSLTyhjo9ZeFh2YhJFFDl9PmdGk_CkYl1CWin0
+id: node.module_lesson.promote
+field_name: promote
+entity_type: node
+bundle: module_lesson
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

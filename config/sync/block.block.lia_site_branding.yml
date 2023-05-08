@@ -1,0 +1,25 @@
+uuid: 2514bd6a-65fe-4d7e-b846-6f5f43e2e35f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lia
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: lia_site_branding
+theme: lia
+region: navbar_branding
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

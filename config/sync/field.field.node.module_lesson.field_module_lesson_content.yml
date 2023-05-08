@@ -1,0 +1,42 @@
+uuid: 76ab0205-ef97-4faf-a8eb-b2b124d597ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_module_lesson_content
+    - node.type.module_lesson
+    - paragraphs.paragraphs_type.lesson_section
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: zU5J6EdSbx42MRuHah50Nbz0AoOzhNKRl2WGYboagHY
+id: node.module_lesson.field_module_lesson_content
+field_name: field_module_lesson_content
+entity_type: node
+bundle: module_lesson
+label: Pages
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      lesson_section: lesson_section
+    target_bundles_drag_drop:
+      competency_attributes:
+        weight: 6
+        enabled: false
+      competency_results:
+        weight: 7
+        enabled: false
+      lesson_section:
+        enabled: true
+        weight: 8
+      lesson_text:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

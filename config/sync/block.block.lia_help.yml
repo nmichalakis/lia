@@ -1,0 +1,22 @@
+uuid: a35131e8-2152-4970-b473-8b05cef629c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - lia
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: lia_help
+theme: lia
+region: header
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

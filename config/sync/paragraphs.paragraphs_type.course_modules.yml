@@ -1,0 +1,12 @@
+uuid: 4d08e3bb-bb33-4644-8ff4-1d5375cde18e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-3B1lG2jUX4WBml_FEOQkgrp-aTUiQJXvssmwrjG4FA'
+id: course_modules
+label: 'Course module'
+icon_uuid: null
+icon_default: null
+description: 'Single unit containing lessons and optionally a final quiz.'
+behavior_plugins: {  }

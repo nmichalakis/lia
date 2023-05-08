@@ -1,0 +1,15 @@
+uuid: 1fc76d2d-0b51-476e-9728-abe615a420ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:views_view:views.events.page_1'
+name: 'Event Category'
+vid: event_category
+description: 'Categories for the events'
+weight: 0

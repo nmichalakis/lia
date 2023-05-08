@@ -1,0 +1,139 @@
+uuid: dc1155a8-aa1e-4e47-a432-fc032cd08c80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sections
+    - paragraphs.paragraphs_type.lia_grouped_sections
+    - paragraphs.paragraphs_type.lia_section
+  module:
+    - entity_reference_revisions
+id: paragraph.lia_grouped_sections.field_sections
+field_name: field_sections
+entity_type: paragraph
+bundle: lia_grouped_sections
+label: Sections
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lia_section: lia_section
+    negate: 0
+    target_bundles_drag_drop:
+      checklist_item:
+        weight: 38
+        enabled: false
+      course_category:
+        weight: 39
+        enabled: false
+      course_modules:
+        weight: 40
+        enabled: false
+      lesson_audio:
+        weight: 41
+        enabled: false
+      lesson_checklist:
+        weight: 42
+        enabled: false
+      lesson_divider:
+        weight: 43
+        enabled: false
+      lesson_embedded_video:
+        weight: 44
+        enabled: false
+      lesson_footnotes:
+        weight: 45
+        enabled: false
+      lesson_heading:
+        weight: 46
+        enabled: false
+      lesson_highlight:
+        weight: 47
+        enabled: false
+      lesson_highlight_marker:
+        weight: 48
+        enabled: false
+      lesson_image:
+        weight: 49
+        enabled: false
+      lesson_image_thumbnail:
+        weight: 50
+        enabled: false
+      lesson_image_wide:
+        weight: 51
+        enabled: false
+      lesson_img_list:
+        weight: 52
+        enabled: false
+      lesson_img_list_item:
+        weight: 53
+        enabled: false
+      lesson_list:
+        weight: 54
+        enabled: false
+      lesson_resource:
+        weight: 55
+        enabled: false
+      lesson_section:
+        weight: 56
+        enabled: false
+      lesson_table:
+        weight: 57
+        enabled: false
+      lesson_text:
+        weight: 58
+        enabled: false
+      lia_cta:
+        weight: 59
+        enabled: false
+      lia_events:
+        weight: 60
+        enabled: false
+      lia_forms:
+        weight: 61
+        enabled: false
+      lia_grouped_sections:
+        weight: 62
+        enabled: false
+      lia_header:
+        weight: 63
+        enabled: false
+      lia_highlight:
+        weight: 64
+        enabled: false
+      lia_icon_highlight:
+        weight: 66
+        enabled: false
+      lia_icons_highlights_section:
+        weight: 65
+        enabled: false
+      lia_news:
+        weight: 67
+        enabled: false
+      lia_section:
+        weight: 68
+        enabled: true
+      lia_statistic:
+        weight: 69
+        enabled: false
+      lia_statistics:
+        weight: 70
+        enabled: false
+      lia_teaser_simple:
+        weight: 71
+        enabled: false
+      lia_text_media:
+        weight: 72
+        enabled: false
+      lia_text_media_advanced:
+        weight: 73
+        enabled: false
+      lia_text_media_quote:
+        weight: 74
+        enabled: false
+field_type: entity_reference_revisions

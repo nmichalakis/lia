@@ -1,0 +1,23 @@
+uuid: 81f90b3b-3ced-422e-83ee-408a46c21217
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -44
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/image-thumbnail.png'
+_core:
+  default_config_hash: q4aIWDiWDlMJFpeH9rl4kI2MVJqE12cJIk-cZXPuQMg
+id: lesson_image_thumbnail
+label: 'Block: Image (thumbnail)'
+icon_uuid: null
+icon_default: null
+description: 'Block with thumbnail image & caption.'
+behavior_plugins: {  }

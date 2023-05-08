@@ -1,0 +1,23 @@
+uuid: dba4c654-6edc-4c21-9184-c831a8ba65b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number
+    - paragraphs.paragraphs_type.lia_statistic
+id: paragraph.lia_statistic.field_number
+field_name: field_number
+entity_type: paragraph
+bundle: lia_statistic
+label: Number
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

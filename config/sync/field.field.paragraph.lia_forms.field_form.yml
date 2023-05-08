@@ -1,0 +1,23 @@
+uuid: 1920279b-24cc-4fac-a4de-d7b0df9410d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_form
+    - paragraphs.paragraphs_type.lia_forms
+id: paragraph.lia_forms.field_form
+field_name: field_form
+entity_type: paragraph
+bundle: lia_forms
+label: Form
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

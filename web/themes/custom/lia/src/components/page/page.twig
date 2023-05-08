@@ -1,0 +1,93 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+{% set page_padding = is_front ? 'p-0' : 'py-5' %}
+{% set margin_top_space = is_front ? 'mt-fix' : '' %}
+{% set page_classes = [
+  page_padding,
+  margin_top_space,
+]|merge(page_utility_classes ? page_utility_classes : []) %}
+{% set main_container = is_front ? 'container-fluid' : 'container' %}
+{% set sidebar_first_rendered = page.sidebar_first|render %}
+{% set sidebar_second_rendered = page.sidebar_second|render %}
+{% set sidebar_first_exists = sidebar_first_rendered|real_content is not empty ? true : false %}
+{% set sidebar_second_exists = sidebar_second_rendered|real_content is not empty ? true : false %}
+{% set sidebar_first_classes = (sidebar_first_exists and sidebar_second_exists) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'%}
+{% set sidebar_second_classes = (sidebar_first_exists and sidebar_second_exists) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'%}
+{% set content_classes = (sidebar_first_exists and sidebar_second_exists) ? 'col-12 col-lg-6' : ((sidebar_first_exists or sidebar_second_exists) ? 'col-12 col-lg-9' : 'col-12' ) %}
+
+<div class="page">
+  {% embed '@radix/navbar/navbar.twig' with {
+    container: 'fixed',
+    color: 'dark',
+    utility_classes: ['bg-dark'],
+  } %}
+
+    {% block branding %}
+      {% if page.navbar_branding %}
+        {{ page.navbar_branding }}
+      {% endif %}
+    {% endblock %}
+
+    {% block left %}
+      {% if page.navbar_left %}
+        <div class="me-auto">
+          {{ page.navbar_left }}
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% block right %}
+      {% if page.navbar_right %}
+        <div class="ms-auto">
+          {{ page.navbar_right }}
+        </div>
+      {% endif %}
+    {% endblock %}
+  {% endembed %}
+
+  <main{{content_attributes.addClass(page_classes)}}>
+    <a id="main-content" tabindex="-1"></a>
+    {# link is in html.html.twig #}
+
+    {% if page.header %}
+      <header class="page__header mb-3">
+        <div class="container">
+          {{ page.header }}
+        </div>
+      </header>
+    {% endif %}
+
+    {% if page.content %}
+      <div class="page__content">
+        <div class="{{ is_front ? 'fluid-container' : 'container' }}">
+          <div class="row">
+            {% if sidebar_first_exists %}
+              <div class="order-2 order-lg-1 sidebar-left {{ sidebar_first_classes }}">
+                {{ sidebar_first_rendered }}
+              </div>
+            {% endif %}
+            <div class="order-1 order-lg-2 content--main {{ content_classes }}">
+              {{ page.content }}
+            </div>
+            {% if sidebar_second_exists %}
+              <div class="order-3 sidebar-right {{ sidebar_second_classes }}">
+                {{ sidebar_second_rendered }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </main>
+
+    {% if page.footer %}
+      <footer class="page__footer bg-secondary py-5 text-white mt-5">
+        <div class="container">
+            {{ page.footer }}
+        </div>
+      </footer>
+    {% endif %}
+  </div>

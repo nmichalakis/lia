@@ -1,0 +1,29 @@
+uuid: ed16328a-9a99-491d-91cd-3400f96c414e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: fSFkJTEBWJVdc_f78D2fHzPp4seqgm1e2tNA4QWfXLA
+id: paragraph.field_lesson_img_list_item_size
+field_name: field_lesson_img_list_item_size
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: small
+      label: Small
+    -
+      value: large
+      label: Large
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

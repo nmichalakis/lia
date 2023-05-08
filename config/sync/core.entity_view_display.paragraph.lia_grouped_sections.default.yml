@@ -1,0 +1,76 @@
+uuid: 8128c8bb-1e5b-4325-9b92-92c6821365cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_grouped_sections.field_description
+    - field.field.paragraph.lia_grouped_sections.field_sections
+    - field.field.paragraph.lia_grouped_sections.field_sections_display_type
+    - field.field.paragraph.lia_grouped_sections.field_sub_header
+    - field.field.paragraph.lia_grouped_sections.field_title
+    - paragraphs.paragraphs_type.lia_grouped_sections
+  module:
+    - entity_reference_revisions
+    - nomarkup
+    - options
+    - text
+id: paragraph.lia_grouped_sections.default
+targetEntityType: paragraph
+bundle: lia_grouped_sections
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 1
+    region: content
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 5
+    region: content
+  field_sections_display_type:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 4
+    region: content
+  field_sub_header:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 0
+    region: content
+hidden: {  }

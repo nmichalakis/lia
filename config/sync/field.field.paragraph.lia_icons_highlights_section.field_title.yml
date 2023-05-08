@@ -1,0 +1,19 @@
+uuid: 7b6a5928-8d15-4793-afbe-6ed6933ccf21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.lia_icons_highlights_section
+id: paragraph.lia_icons_highlights_section.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: lia_icons_highlights_section
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

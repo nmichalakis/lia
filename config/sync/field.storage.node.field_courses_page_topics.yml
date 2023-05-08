@@ -1,0 +1,22 @@
+uuid: 830b465d-2f11-4f04-b947-fe652aabb218
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: nWYzW4Be4BC101nAZPRnZpwcBdYT1V7BcZZ4KTNkYao
+id: node.field_courses_page_topics
+field_name: field_courses_page_topics
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

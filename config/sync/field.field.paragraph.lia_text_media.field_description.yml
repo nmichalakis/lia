@@ -1,0 +1,26 @@
+uuid: 1a1d0cfb-caf6-4d50-98d8-951703eab92e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.lia_text_media
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - basic_html
+id: paragraph.lia_text_media.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: lia_text_media
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

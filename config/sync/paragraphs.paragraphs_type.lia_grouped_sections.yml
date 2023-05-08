@@ -1,0 +1,10 @@
+uuid: c252e95a-a289-431d-a22f-dd211a6cecc1
+langcode: en
+status: true
+dependencies: {  }
+id: lia_grouped_sections
+label: 'Lia Grouped Sections'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

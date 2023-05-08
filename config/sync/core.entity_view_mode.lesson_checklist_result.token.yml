@@ -1,0 +1,10 @@
+uuid: e9dabf1c-cdf3-4ccb-a8f6-c437d42bd0e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: lesson_checklist_result.token
+label: Token
+targetEntityType: lesson_checklist_result
+cache: true

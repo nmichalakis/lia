@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for liac module.
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function liac_theme()
+{
+    return [
+    'liac_footer_block' => [
+      'variables' => [
+        'data' => null,
+      ],
+      'template' => 'liac-footer-block',
+    ],
+    ];
+}

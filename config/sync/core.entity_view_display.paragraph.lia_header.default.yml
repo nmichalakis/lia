@@ -1,0 +1,72 @@
+uuid: a58a20e5-d8d3-4e98-83ae-9ad922b4a9a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_header.field_cta_link
+    - field.field.paragraph.lia_header.field_description
+    - field.field.paragraph.lia_header.field_header_image
+    - field.field.paragraph.lia_header.field_title
+    - paragraphs.paragraphs_type.lia_header
+  module:
+    - link
+    - nomarkup
+    - svg_image
+    - text
+id: paragraph.lia_header.default
+targetEntityType: paragraph
+bundle: lia_header
+mode: default
+content:
+  field_cta_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 1
+    region: content
+  field_header_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 0
+    region: content
+hidden: {  }

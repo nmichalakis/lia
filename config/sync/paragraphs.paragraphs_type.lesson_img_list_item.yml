@@ -1,0 +1,12 @@
+uuid: aab31e9b-62ce-4666-970c-04f73404f197
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-vN1ZCuKI8KjjWB5SDgBUFWvnJSj-2CoUURMS1JPix0'
+id: lesson_img_list_item
+label: 'Image bullet list item'
+icon_uuid: null
+icon_default: null
+description: 'Individual item of Block: Highlight (with image).'
+behavior_plugins: {  }

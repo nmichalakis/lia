@@ -1,0 +1,26 @@
+uuid: 892c65e4-b9a9-43be-80ee-e5f9119bfd43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.lia_icon_highlight
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - basic_html
+id: paragraph.lia_icon_highlight.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: lia_icon_highlight
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

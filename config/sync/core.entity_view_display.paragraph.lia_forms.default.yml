@@ -1,0 +1,34 @@
+uuid: 386448bf-b735-46d1-9a16-39807270cb4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_forms.field_form
+    - field.field.paragraph.lia_forms.field_title
+    - paragraphs.paragraphs_type.lia_forms
+  module:
+    - nomarkup
+id: paragraph.lia_forms.default
+targetEntityType: paragraph
+bundle: lia_forms
+mode: default
+content:
+  field_form:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: 042051f1-8c65-47b7-ba1d-d03e13e18c7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.lia_forms
+id: paragraph.lia_forms.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: lia_forms
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

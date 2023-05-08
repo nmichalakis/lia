@@ -1,0 +1,10 @@
+uuid: bbbbd4bc-e01f-4d40-aed8-aa1198779ef5
+langcode: en
+status: true
+dependencies: {  }
+id: lia_statistics
+label: 'Lia Statistics'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

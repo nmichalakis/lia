@@ -1,0 +1,17 @@
+uuid: fa99de01-6072-4217-97a7-d69a0dd8e351
+langcode: en
+status: true
+dependencies: {  }
+id: social_media_accounts
+label: 'Social Media Accounts'
+token: true
+context:
+  show_warning: true
+  group:
+    language: false
+  fallback:
+    language: ''
+menu:
+  path: /admin/structure/social-media-accounts
+  weight: 0
+  description: 'Socia Media Accounts'

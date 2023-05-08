@@ -1,0 +1,20 @@
+uuid: b0dde967-04d1-41da-9211-e5ee1850c2e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_icon_highlight_refs
+field_name: field_icon_highlight_refs
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

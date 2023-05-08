@@ -1,0 +1,32 @@
+uuid: 683c5850-27cd-4c85-9d96-7a4e1706d82f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - lia
+third_party_settings:
+  block_class:
+    classes: 'jumbotron bg-gray-100 bg-border-gray-200 p-3'
+id: exposedformeventspage_1
+theme: lia
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:events-page_1'
+settings:
+  id: 'views_exposed_filter_block:events-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/events/*'

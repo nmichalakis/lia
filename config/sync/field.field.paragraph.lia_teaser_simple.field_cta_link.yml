@@ -1,0 +1,23 @@
+uuid: cb3488b8-0f16-48e9-9bea-12a227a42a53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_link
+    - paragraphs.paragraphs_type.lia_teaser_simple
+  module:
+    - link
+id: paragraph.lia_teaser_simple.field_cta_link
+field_name: field_cta_link
+entity_type: paragraph
+bundle: lia_teaser_simple
+label: Link
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

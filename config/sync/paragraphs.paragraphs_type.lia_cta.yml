@@ -1,0 +1,10 @@
+uuid: 1c4e1439-7295-4a89-a543-0102bfd048c1
+langcode: en
+status: true
+dependencies: {  }
+id: lia_cta
+label: 'Lia CTA (Call to Action Block)'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

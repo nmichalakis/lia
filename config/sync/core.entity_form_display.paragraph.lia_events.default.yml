@@ -1,0 +1,44 @@
+uuid: 1cf02af6-9127-479b-96a4-6d2f95997669
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_events.field_cta_link
+    - field.field.paragraph.lia_events.field_description
+    - field.field.paragraph.lia_events.field_title
+    - paragraphs.paragraphs_type.lia_events
+  module:
+    - link
+    - text
+id: paragraph.lia_events.default
+targetEntityType: paragraph
+bundle: lia_events
+mode: default
+content:
+  field_cta_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

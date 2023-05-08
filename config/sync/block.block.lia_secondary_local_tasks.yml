@@ -1,0 +1,22 @@
+uuid: 9de1a9a7-b86e-428e-878e-e1ba16c5e230
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lia
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: lia_secondary_local_tasks
+theme: lia
+region: navbar_right
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

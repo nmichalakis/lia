@@ -1,0 +1,23 @@
+uuid: d2941e95-de07-4c19-8be2-d3775918d2d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_highlight_color
+    - paragraphs.paragraphs_type.lesson_img_list
+  module:
+    - options
+_core:
+  default_config_hash: TSrC-czy3fNDkd76E1rI-Ifd6MXb2-bY6sCbb-T1n_U
+id: paragraph.lesson_img_list.field_lesson_highlight_color
+field_name: field_lesson_highlight_color
+entity_type: paragraph
+bundle: lesson_img_list
+label: Color
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

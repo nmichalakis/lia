@@ -1,0 +1,21 @@
+uuid: a8ebe0db-0d09-4370-baeb-981ff24d3b88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_module_title
+    - paragraphs.paragraphs_type.course_modules
+_core:
+  default_config_hash: ybb3c1fN9e71Yyyomkm0dvhDAkBGM-lzmpxJm1g-J-g
+id: paragraph.course_modules.field_module_title
+field_name: field_module_title
+entity_type: paragraph
+bundle: course_modules
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,42 @@
+uuid: 62628c5a-4214-44e0-89ea-3b8079ed496d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_section.field_description
+    - field.field.paragraph.lia_section.field_icon
+    - field.field.paragraph.lia_section.field_title
+    - paragraphs.paragraphs_type.lia_section
+  module:
+    - fontawesome
+    - text
+id: paragraph.lia_section.default
+targetEntityType: paragraph
+bundle: lia_section
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon:
+    type: fontawesome_icon_widget
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

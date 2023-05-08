@@ -1,0 +1,15 @@
+<div class="startup-step m-5">
+  <div class="startup-step__number">
+    <span class="startup-step__circle"></span>
+      {{ '%02d'|format(index+1) }}
+  </div>
+  <div class="startup-step__content d-flex justify-content-between">
+    <div class="startup-step__icon w-25 pr-3">
+      <i class="{{ section.icon.style}} fa-2x fa-{{~section.icon.icon_name}} text-orange"></i>
+    </div>
+    <div class="startup-step__text">
+      <h4>{{ drupal_field('field_title', 'paragraph', section.target_id) }}</h4>
+      {{ drupal_field('field_description', 'paragraph', section.target_id) }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,142 @@
+uuid: 96b9d245-88aa-46c9-952f-b8a3409ea0d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.social_media_accounts
+    - field.storage.config_pages.field_social_media_account_page
+    - paragraphs.paragraphs_type.lia_social_media
+  module:
+    - entity_reference_revisions
+id: config_pages.social_media_accounts.field_social_media_account_page
+field_name: field_social_media_account_page
+entity_type: config_pages
+bundle: social_media_accounts
+label: 'Social Media Account Page'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lia_social_media: lia_social_media
+    negate: 0
+    target_bundles_drag_drop:
+      checklist_item:
+        weight: 39
+        enabled: false
+      course_category:
+        weight: 40
+        enabled: false
+      course_modules:
+        weight: 41
+        enabled: false
+      lesson_audio:
+        weight: 42
+        enabled: false
+      lesson_checklist:
+        weight: 43
+        enabled: false
+      lesson_divider:
+        weight: 44
+        enabled: false
+      lesson_embedded_video:
+        weight: 45
+        enabled: false
+      lesson_footnotes:
+        weight: 46
+        enabled: false
+      lesson_heading:
+        weight: 47
+        enabled: false
+      lesson_highlight:
+        weight: 48
+        enabled: false
+      lesson_highlight_marker:
+        weight: 49
+        enabled: false
+      lesson_image:
+        weight: 50
+        enabled: false
+      lesson_image_thumbnail:
+        weight: 51
+        enabled: false
+      lesson_image_wide:
+        weight: 52
+        enabled: false
+      lesson_img_list:
+        weight: 53
+        enabled: false
+      lesson_img_list_item:
+        weight: 54
+        enabled: false
+      lesson_list:
+        weight: 55
+        enabled: false
+      lesson_resource:
+        weight: 56
+        enabled: false
+      lesson_section:
+        weight: 57
+        enabled: false
+      lesson_table:
+        weight: 58
+        enabled: false
+      lesson_text:
+        weight: 59
+        enabled: false
+      lia_cta:
+        weight: 60
+        enabled: false
+      lia_events:
+        weight: 61
+        enabled: false
+      lia_forms:
+        weight: 62
+        enabled: false
+      lia_grouped_sections:
+        weight: 63
+        enabled: false
+      lia_header:
+        weight: 64
+        enabled: false
+      lia_highlight:
+        weight: 65
+        enabled: false
+      lia_icon_highlight:
+        weight: 67
+        enabled: false
+      lia_icons_highlights_section:
+        weight: 66
+        enabled: false
+      lia_news:
+        weight: 68
+        enabled: false
+      lia_section:
+        weight: 69
+        enabled: false
+      lia_social_media:
+        weight: 70
+        enabled: true
+      lia_statistic:
+        weight: 71
+        enabled: false
+      lia_statistics:
+        weight: 72
+        enabled: false
+      lia_teaser_simple:
+        weight: 73
+        enabled: false
+      lia_text_media:
+        weight: 74
+        enabled: false
+      lia_text_media_advanced:
+        weight: 75
+        enabled: false
+      lia_text_media_quote:
+        weight: 76
+        enabled: false
+field_type: entity_reference_revisions

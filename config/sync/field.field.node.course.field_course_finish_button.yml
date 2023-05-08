@@ -1,0 +1,25 @@
+uuid: 943166b5-f7a2-46c6-bbf8-f67d0628a82c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_finish_button
+    - node.type.course
+  module:
+    - link
+_core:
+  default_config_hash: aO_DwqFNmkPuFvKJLcDVVZmXXVKI17f0NoqoboPkFPM
+id: node.course.field_course_finish_button
+field_name: field_course_finish_button
+entity_type: node
+bundle: course
+label: 'Course finish button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 1
+field_type: link

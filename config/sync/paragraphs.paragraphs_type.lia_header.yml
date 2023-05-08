@@ -1,0 +1,10 @@
+uuid: 8dd2fff5-3f84-4583-9af3-669100907dc8
+langcode: en
+status: true
+dependencies: {  }
+id: lia_header
+label: 'Lia Header'
+icon_uuid: null
+icon_default: null
+description: 'Header with waves effect on the bottom.'
+behavior_plugins: {  }

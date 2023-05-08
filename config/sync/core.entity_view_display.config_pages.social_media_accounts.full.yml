@@ -1,0 +1,25 @@
+uuid: 2a11cd2b-6fa2-4768-afd2-9fefb1ff4ca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.social_media_accounts
+    - core.entity_view_mode.config_pages.full
+    - field.field.config_pages.social_media_accounts.field_social_media_account_page
+  module:
+    - entity_reference_revisions
+id: config_pages.social_media_accounts.full
+targetEntityType: config_pages
+bundle: social_media_accounts
+mode: full
+content:
+  field_social_media_account_page:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

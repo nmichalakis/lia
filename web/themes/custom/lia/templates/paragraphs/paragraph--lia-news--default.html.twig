@@ -1,0 +1,10 @@
+<div id="latest-blog" class="bg-light-gray">
+  <h2 class="text-center">{{ content.field_title }}</h2>
+  <div class="text-center pt-2">
+    {{ content.field_description }}
+  </div>
+  {# <p class="text-center pt-2 pb-5">Διαβάστε τις τελευταίες ειδήσεις και ενημερώσεις σχετικά με το Lesvos Startup Hub.</p> #}
+  <div class="container">
+    {{ drupal_view('news', 'block_1') }}
+  </div>
+</div>

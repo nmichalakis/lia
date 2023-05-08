@@ -1,0 +1,10 @@
+uuid: 1fc2f9be-5c3d-4e48-b204-86d3759c7ee6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4KucZa3CNCm1dXW30B9sFZeywRIIAoSkdN73lPES5nk
+name: 'Course label'
+vid: course_label
+description: ''
+weight: 0

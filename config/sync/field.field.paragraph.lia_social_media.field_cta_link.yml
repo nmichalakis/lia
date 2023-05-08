@@ -1,0 +1,23 @@
+uuid: 9e3e20af-85d3-4add-b3ab-2a204e824948
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_link
+    - paragraphs.paragraphs_type.lia_social_media
+  module:
+    - link
+id: paragraph.lia_social_media.field_cta_link
+field_name: field_cta_link
+entity_type: paragraph
+bundle: lia_social_media
+label: 'Social Media Account'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 16
+field_type: link

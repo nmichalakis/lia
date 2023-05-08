@@ -1,0 +1,71 @@
+// Global elements styling, e.g. for headings, buttons, links, etc.
+// -----------------------------------------------------------------------------
+h1,
+h1.page-title,
+h2,
+h3,
+h4,
+h5 {
+  color: $indigo-dark;
+  a {
+    color: $indigo-dark;
+    text-decoration: none;
+  }
+}
+.paragraph--type--lia-highlight--simple {
+  margin: 0 auto;
+  max-width: 680px;
+}
+
+.icons-highlights__header {
+  margin: 0 auto;
+  max-width: 680px;
+  text-align: center;
+}
+.paragraph--type--lia-forms form {
+  padding: 2rem;
+  background-color: $gray-200;
+}
+.contact--teaser small {
+  font-size: 0.75rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .page main {
+    min-height: calc(100vh - 393px);
+  }
+}
+
+.mt-fix {
+  margin-top: -16px;
+}
+
+.mb-grid {
+  margin-bottom: 30px;
+}
+
+.field--name-field-social-media-account-page {
+  display: flex;
+  a {
+    font-weight: bold;
+    color: $white;
+  }
+}
+
+footer.page__footer {
+  a.navbar-brand {
+    text-transform: uppercase;
+  }
+  .nav-link {
+    color: $white !important;
+  }
+  small {
+    font-size: 0.7em;
+  }
+  .field--name-field-social-media-account-page {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+}

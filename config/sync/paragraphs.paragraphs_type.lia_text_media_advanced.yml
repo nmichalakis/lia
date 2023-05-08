@@ -1,0 +1,10 @@
+uuid: dbf53537-8fd6-4264-9386-e5c9186d48f9
+langcode: en
+status: true
+dependencies: {  }
+id: lia_text_media_advanced
+label: 'Lia Text Media Advanced'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

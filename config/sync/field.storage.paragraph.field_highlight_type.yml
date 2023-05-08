@@ -1,0 +1,27 @@
+uuid: 790daa51-4820-4ea3-851f-adb757264c11
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_highlight_type
+field_name: field_highlight_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: simple
+      label: 'Simple - Clean'
+    -
+      value: box
+      label: 'Box with Spacing'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,130 @@
+uuid: 9df564f9-c776-469e-9da2-1b2f7330c8f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_highlight_refs
+    - paragraphs.paragraphs_type.lia_icon_highlight
+    - paragraphs.paragraphs_type.lia_icons_highlights_section
+  module:
+    - entity_reference_revisions
+id: paragraph.lia_icons_highlights_section.field_icon_highlight_refs
+field_name: field_icon_highlight_refs
+entity_type: paragraph
+bundle: lia_icons_highlights_section
+label: 'Lia Icon Highlights'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lia_icon_highlight: lia_icon_highlight
+    negate: 0
+    target_bundles_drag_drop:
+      checklist_item:
+        weight: 35
+        enabled: false
+      course_category:
+        weight: 36
+        enabled: false
+      course_modules:
+        weight: 37
+        enabled: false
+      lesson_audio:
+        weight: 38
+        enabled: false
+      lesson_checklist:
+        weight: 39
+        enabled: false
+      lesson_divider:
+        weight: 40
+        enabled: false
+      lesson_embedded_video:
+        weight: 41
+        enabled: false
+      lesson_footnotes:
+        weight: 42
+        enabled: false
+      lesson_heading:
+        weight: 43
+        enabled: false
+      lesson_highlight:
+        weight: 44
+        enabled: false
+      lesson_highlight_marker:
+        weight: 45
+        enabled: false
+      lesson_image:
+        weight: 46
+        enabled: false
+      lesson_image_thumbnail:
+        weight: 47
+        enabled: false
+      lesson_image_wide:
+        weight: 48
+        enabled: false
+      lesson_img_list:
+        weight: 49
+        enabled: false
+      lesson_img_list_item:
+        weight: 50
+        enabled: false
+      lesson_list:
+        weight: 51
+        enabled: false
+      lesson_resource:
+        weight: 52
+        enabled: false
+      lesson_section:
+        weight: 53
+        enabled: false
+      lesson_table:
+        weight: 54
+        enabled: false
+      lesson_text:
+        weight: 55
+        enabled: false
+      lia_cta:
+        weight: 56
+        enabled: false
+      lia_events:
+        weight: 57
+        enabled: false
+      lia_grouped_sections:
+        weight: 58
+        enabled: false
+      lia_header:
+        weight: 59
+        enabled: false
+      lia_highlight:
+        weight: 60
+        enabled: false
+      lia_icon_highlight:
+        weight: 62
+        enabled: true
+      lia_icons_highlights_section:
+        weight: 61
+        enabled: false
+      lia_news:
+        weight: 63
+        enabled: false
+      lia_sections:
+        weight: 64
+        enabled: false
+      lia_statistic:
+        weight: 65
+        enabled: false
+      lia_statistics:
+        weight: 66
+        enabled: false
+      lia_text_media:
+        weight: 67
+        enabled: false
+      lia_text_media_quote:
+        weight: 68
+        enabled: false
+field_type: entity_reference_revisions

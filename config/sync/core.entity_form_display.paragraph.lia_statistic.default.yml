@@ -1,0 +1,31 @@
+uuid: 0ad53910-7fdd-465d-8c3f-90593af20651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_statistic.field_number
+    - field.field.paragraph.lia_statistic.field_title
+    - paragraphs.paragraphs_type.lia_statistic
+id: paragraph.lia_statistic.default
+targetEntityType: paragraph
+bundle: lia_statistic
+mode: default
+content:
+  field_number:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

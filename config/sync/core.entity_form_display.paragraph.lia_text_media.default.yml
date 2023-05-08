@@ -1,0 +1,60 @@
+uuid: 889db0a0-0d09-4641-aaa4-493fb337ce72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_text_media.field_cta_link
+    - field.field.paragraph.lia_text_media.field_description
+    - field.field.paragraph.lia_text_media.field_media_image
+    - field.field.paragraph.lia_text_media.field_media_position
+    - field.field.paragraph.lia_text_media.field_title
+    - paragraphs.paragraphs_type.lia_text_media
+  module:
+    - link
+    - media_library
+    - text
+id: paragraph.lia_text_media.default
+targetEntityType: paragraph
+bundle: lia_text_media
+mode: default
+content:
+  field_cta_link:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_media_image:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_media_position:
+    type: options_buttons
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

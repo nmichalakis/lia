@@ -1,0 +1,20 @@
+uuid: 303ec7a2-5ad8-4e65-a64a-d533020e7bb4
+langcode: en
+status: true
+dependencies:
+  module:
+    - liac
+  theme:
+    - lia
+id: liafooter
+theme: lia
+region: footer
+weight: 0
+provider: null
+plugin: liac_footer
+settings:
+  id: liac_footer
+  label: 'Lia Footer'
+  label_display: '0'
+  provider: liac
+visibility: {  }

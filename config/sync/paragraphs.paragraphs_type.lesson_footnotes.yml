@@ -1,0 +1,23 @@
+uuid: 8a3d48fb-f25b-47a2-93ab-b46b8b906270
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -51
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/footnotes.png'
+_core:
+  default_config_hash: uzFrvtod914ptP_pDxZjD9FQcINn3MFJkeZl5euA-uE
+id: lesson_footnotes
+label: 'Block: Footnotes'
+icon_uuid: null
+icon_default: null
+description: 'Block for lesson footnotes. Usually placed at the bottom of a page.'
+behavior_plugins: {  }

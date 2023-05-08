@@ -1,0 +1,23 @@
+uuid: 3c197e99-7c09-4e8f-aecf-e6b2c717d1f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lesson_section.field_lesson_section_content
+        weight: -40
+  paragraphs_browser:
+    image_path: 'anu-lms://assets/checklist.png'
+_core:
+  default_config_hash: 9CKxwhuLnz4J9fjfwWs-gLxro7nt4EqovZJzkPDyhxo
+id: lesson_checklist
+label: 'Block: Checklist'
+icon_uuid: null
+icon_default: null
+description: 'Clickable items list. Stores individual result for each user.'
+behavior_plugins: {  }

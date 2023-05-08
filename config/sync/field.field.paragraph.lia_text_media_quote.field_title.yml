@@ -1,0 +1,19 @@
+uuid: ddc25ffa-c8d6-4624-a6ff-780e1098752f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.lia_text_media_quote
+id: paragraph.lia_text_media_quote.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: lia_text_media_quote
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

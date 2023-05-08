@@ -1,0 +1,32 @@
+uuid: 471f2035-892e-40fc-921f-e88c554b8e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - lia
+third_party_settings:
+  block_class:
+    classes: 'jumbotron bg-gray-100 bg-border-gray-200 p-3'
+id: exposedformnewspage_1
+theme: lia
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:news-page_1'
+settings:
+  id: 'views_exposed_filter_block:news-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: Αναζήτηση
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/news\r\n/news/*"

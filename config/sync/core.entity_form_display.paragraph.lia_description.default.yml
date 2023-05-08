@@ -1,0 +1,25 @@
+uuid: 4bb9af2c-e02e-4c1f-b991-7e8a354c4d87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_description.field_description
+    - paragraphs.paragraphs_type.lia_description
+  module:
+    - text
+id: paragraph.lia_description.default
+targetEntityType: paragraph
+bundle: lia_description
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

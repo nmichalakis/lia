@@ -1,0 +1,10 @@
+uuid: 0c019d09-396f-47c7-aaf0-e7283387edde
+langcode: en
+status: true
+dependencies: {  }
+id: lia_icons_highlights_section
+label: 'Lia Icons Highlights Section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

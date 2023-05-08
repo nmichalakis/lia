@@ -1,0 +1,28 @@
+uuid: 82f4969e-1c26-41e4-b128-6b2bd0661ee6
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.social_media_accounts
+    - field.field.config_pages.social_media_accounts.field_social_media_account_page
+  module:
+    - entity_reference_revisions
+    - nomarkup
+id: config_pages.social_media_accounts.default
+targetEntityType: config_pages
+bundle: social_media_accounts
+mode: default
+content:
+  field_social_media_account_page:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: ''
+    weight: 0
+    region: content
+hidden: {  }

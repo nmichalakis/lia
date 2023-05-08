@@ -1,0 +1,23 @@
+uuid: f54ed3e6-6351-4dcb-a0d0-9d2d7f49d23b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_link
+    - paragraphs.paragraphs_type.lia_header
+  module:
+    - link
+id: paragraph.lia_header.field_cta_link
+field_name: field_cta_link
+entity_type: paragraph
+bundle: lia_header
+label: 'Link - Button'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 1
+field_type: link

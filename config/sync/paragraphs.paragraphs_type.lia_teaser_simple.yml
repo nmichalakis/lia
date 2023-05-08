@@ -1,0 +1,10 @@
+uuid: f46d2364-4817-451e-a785-962dabb54b58
+langcode: en
+status: true
+dependencies: {  }
+id: lia_teaser_simple
+label: 'Lia Teaser Simple'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,12 @@
+uuid: b0ccc244-a5be-4d10-8a60-8768cbe3bdf3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: CL4x9A2SIBDOWeaJIovcJ2iHyyWRidCRvlOpIuWyiBw
+id: node.embedded
+label: Embedded
+targetEntityType: node
+cache: true

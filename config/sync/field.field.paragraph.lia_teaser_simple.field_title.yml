@@ -1,0 +1,19 @@
+uuid: ba4ff91f-3fc7-4260-9ef3-8f278e90ba2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.lia_teaser_simple
+id: paragraph.lia_teaser_simple.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: lia_teaser_simple
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

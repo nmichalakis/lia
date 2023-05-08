@@ -1,0 +1,10 @@
+uuid: 1e9080fb-6d30-4c3c-a27e-5ce983aa15bb
+langcode: en
+status: true
+dependencies: {  }
+id: lia_social_media
+label: 'Lia Social Media'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

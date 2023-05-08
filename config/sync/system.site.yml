@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 0e633817-6ea3-430b-920e-d7f5d43cd56d
+name: 'Lesvos Startup Hub'
+mail: admin@example.com
+slogan: 'Δημιουργία και Λειτουργία Δομών Υποστήριξης της Επιχειρηματικότητας'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

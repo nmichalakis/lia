@@ -1,0 +1,17 @@
+uuid: c425ff57-4ae7-4b7d-97ff-9f5c7cb71b52
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AQVBGmuzM2T8cr6teCfdIPy6EICB2Pw96mOVMs0FkX4
+name: image_bullet_list_small
+label: '[ANU LMS] Paragraph: Image bullet list (small)'
+effects:
+  3ec5259a-84ec-4178-ab5f-4582c52ad0d2:
+    uuid: 3ec5259a-84ec-4178-ab5f-4582c52ad0d2
+    id: image_scale
+    weight: 1
+    data:
+      width: 80
+      height: 80
+      upscale: false

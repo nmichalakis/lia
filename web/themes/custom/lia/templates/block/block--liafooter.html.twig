@@ -1,0 +1,16 @@
+<div class="row w-100 align-items-md-center">
+  <div class="col-xs-12 col-md-4">
+    {{ drupal_block('system_branding_block')}}
+    <small>
+      {{ content['#data'].site_slogan}}</small>
+    <p class="small text-white">
+      Powered by: <a class="text-white" href="https://aegeansolutions.com/">ΑΙΓΑΙΟΥ Solutions</a>
+      - {{ 'now' | date('Y') }} &copy;</p>
+  </div>
+  <div class="col-xs-12 col-md-4">
+    {{ drupal_block('config_pages_block',{'config_page_type': 'social_media_accounts', 'config_page_view_mode' : 'full'}) }}
+  </div>
+  <div class="col-xs-12 col-md-4">
+    {{ drupal_block('system_menu_block:footer')}}
+  </div>
+</div>

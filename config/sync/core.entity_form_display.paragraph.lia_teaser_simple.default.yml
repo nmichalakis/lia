@@ -1,0 +1,44 @@
+uuid: c4e6f52b-2f88-4aae-a8d8-43f994c7352b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_teaser_simple.field_cta_link
+    - field.field.paragraph.lia_teaser_simple.field_description
+    - field.field.paragraph.lia_teaser_simple.field_title
+    - paragraphs.paragraphs_type.lia_teaser_simple
+  module:
+    - link
+    - text
+id: paragraph.lia_teaser_simple.default
+targetEntityType: paragraph
+bundle: lia_teaser_simple
+mode: default
+content:
+  field_cta_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

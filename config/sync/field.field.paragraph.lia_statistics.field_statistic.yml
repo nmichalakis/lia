@@ -1,0 +1,115 @@
+uuid: e5d289cd-6588-4b00-b027-930ce72ba552
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_statistic
+    - paragraphs.paragraphs_type.lia_statistic
+    - paragraphs.paragraphs_type.lia_statistics
+  module:
+    - entity_reference_revisions
+id: paragraph.lia_statistics.field_statistic
+field_name: field_statistic
+entity_type: paragraph
+bundle: lia_statistics
+label: Statistic
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lia_statistic: lia_statistic
+    negate: 0
+    target_bundles_drag_drop:
+      checklist_item:
+        weight: 30
+        enabled: false
+      course_category:
+        weight: 31
+        enabled: false
+      course_modules:
+        weight: 32
+        enabled: false
+      lesson_audio:
+        weight: 33
+        enabled: false
+      lesson_checklist:
+        weight: 34
+        enabled: false
+      lesson_divider:
+        weight: 35
+        enabled: false
+      lesson_embedded_video:
+        weight: 36
+        enabled: false
+      lesson_footnotes:
+        weight: 37
+        enabled: false
+      lesson_heading:
+        weight: 38
+        enabled: false
+      lesson_highlight:
+        weight: 39
+        enabled: false
+      lesson_highlight_marker:
+        weight: 40
+        enabled: false
+      lesson_image:
+        weight: 41
+        enabled: false
+      lesson_image_thumbnail:
+        weight: 42
+        enabled: false
+      lesson_image_wide:
+        weight: 43
+        enabled: false
+      lesson_img_list:
+        weight: 44
+        enabled: false
+      lesson_img_list_item:
+        weight: 45
+        enabled: false
+      lesson_list:
+        weight: 46
+        enabled: false
+      lesson_resource:
+        weight: 47
+        enabled: false
+      lesson_section:
+        weight: 48
+        enabled: false
+      lesson_table:
+        weight: 49
+        enabled: false
+      lesson_text:
+        weight: 50
+        enabled: false
+      lia_cta:
+        weight: 51
+        enabled: false
+      lia_grouped_sections:
+        weight: 52
+        enabled: false
+      lia_header:
+        weight: 53
+        enabled: false
+      lia_sections:
+        weight: 54
+        enabled: false
+      lia_statistic:
+        weight: 55
+        enabled: true
+      lia_statistics:
+        weight: 56
+        enabled: false
+      lia_text_media:
+        weight: 57
+        enabled: false
+      lia_text_media_quote:
+        weight: 58
+        enabled: false
+field_type: entity_reference_revisions

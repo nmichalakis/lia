@@ -1,0 +1,39 @@
+uuid: 218eda14-8a0d-4fd0-ae1d-923bbd85c453
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_statistic.field_number
+    - field.field.paragraph.lia_statistic.field_title
+    - paragraphs.paragraphs_type.lia_statistic
+  module:
+    - nomarkup
+id: paragraph.lia_statistic.default
+targetEntityType: paragraph
+bundle: lia_statistic
+mode: default
+content:
+  field_number:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+    weight: 1
+    region: content
+hidden: {  }

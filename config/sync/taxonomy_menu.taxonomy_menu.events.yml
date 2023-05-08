@@ -1,0 +1,16 @@
+uuid: 479bf5d0-29c4-4d8c-ae28-2d6849b8074e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.event_category
+id: events
+label: Events
+vocabulary: event_category
+menu: main
+expanded: true
+depth: 0
+menu_parent: 'main:views_view:views.events.page_1'
+description_field_name: ''
+use_term_weight_order: true

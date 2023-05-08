@@ -1,0 +1,21 @@
+uuid: a575e853-1a4a-4952-928f-0d9edca9c168
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_image_caption
+    - paragraphs.paragraphs_type.lesson_image_wide
+_core:
+  default_config_hash: '-lkp_aRhAq_P1sJop0dfoGbmkuSEUWDljFFOJ8OGRbA'
+id: paragraph.lesson_image_wide.field_lesson_image_caption
+field_name: field_lesson_image_caption
+entity_type: paragraph
+bundle: lesson_image_wide
+label: Caption
+description: 'A text to display at the bottom of the image (as an overlay).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

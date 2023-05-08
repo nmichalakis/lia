@@ -1,0 +1,25 @@
+uuid: a7cc409b-6c68-4db3-9c1f-57dc0f755a01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_heading_size
+    - paragraphs.paragraphs_type.lesson_heading
+  module:
+    - options
+_core:
+  default_config_hash: qpW1Jsd8ttC-zyjMha1umtPoScrevQ-Dngs5ASupNBg
+id: paragraph.lesson_heading.field_lesson_heading_size
+field_name: field_lesson_heading_size
+entity_type: paragraph
+bundle: lesson_heading
+label: Size
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

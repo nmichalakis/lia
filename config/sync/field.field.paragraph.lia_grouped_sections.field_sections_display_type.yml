@@ -1,0 +1,21 @@
+uuid: f89fa24e-18f3-4281-86fe-c79e664f1ffd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sections_display_type
+    - paragraphs.paragraphs_type.lia_grouped_sections
+  module:
+    - options
+id: paragraph.lia_grouped_sections.field_sections_display_type
+field_name: field_sections_display_type
+entity_type: paragraph
+bundle: lia_grouped_sections
+label: 'Sections Display Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

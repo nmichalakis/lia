@@ -1,0 +1,26 @@
+uuid: a416b9bf-d58d-4de4-97da-9ea056f90607
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.lia_grouped_sections
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - basic_html
+id: paragraph.lia_grouped_sections.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: lia_grouped_sections
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

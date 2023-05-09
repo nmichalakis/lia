@@ -15,18 +15,18 @@
 # Generally you should only ignore the root vendor directory. It's important
 # that core/assets/vendor and any other vendor directories within contrib or
 # custom module, theme, etc., are not ignored unless you purposely do so.
-/vendor/
+vendor/
 
 # Ignore configuration files that may contain sensitive information.
-sites/*/settings*.php
-sites/*/services*.yml
-
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+web/sites/default/settings.php
 # Ignore paths that contain user-generated content.
 sites/*/files
-sites/*/private
+# sites/*/private
 
-# Ignore multi-site test environment.
-sites/simpletest
+# Ignore SimpleTest multi-site environment.
+web/sites/simpletest
 
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
@@ -35,18 +35,31 @@ sites/simpletest
 # */settings*.php
 
 # Ignore paths that contain user-generated content.
-# */files
-# */private
+*/files
+*/private
 
-# Ignore multi-site test environment.
-# simpletest
-.editorconfig
-.gitattributes
-.DS_Store
-.ddev/
-.history/
-.vscode/
+
+# Ignore paths that contain contrib and developent generated folders and files
 web/modules/contrib
 web/themes/contrib
+web/themes/custom/*/node_modules
 web/core
-web/sites/default/files/
+.history/
+.vscode/
+.ddev/
+.DS_Store
+*.DS_Store
+/.gitattributes
+.editorconfig
+cacert.pem
+#*.sql.gz
+web/sites/default/files/php
+web/sites/default/files/css
+web/sites/default/files/js
+
+#exclude tmp and private folders
+tmp/
+prvt/
+web/sites/default/files
+web/demo
+web/sites/default/settings.php

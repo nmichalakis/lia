@@ -55,12 +55,12 @@ h2 {
 }
 
 h3 {
-  color: #1b1e7b;
+  color: $dark-blue;
   font: 600 1.75rem/2.375rem "Roboto", sans-serif;
 }
 
 h4 {
-  color: #1b1e7b;
+  color: $dark-blue;
   font: 600 1.25rem/2rem "Roboto", sans-serif;
   line-height: 115%;
 }
@@ -86,7 +86,7 @@ h6 {
   line-height: 1.75rem;
 }
 .navbar-dark {
-  background-color: #1b1e7b !important;
+  background-color: $blue-dark !important;
 }
 .p-small {
   font-size: 0.875rem;
@@ -172,7 +172,7 @@ a:hover {
   background-color: #026cfe;
 }
 .bg-navy-blue {
-  background-color: #1b1e7b;
+  background-color: $dark-blue;
 }
 .blue {
   color: #026cfe;
@@ -287,7 +287,7 @@ a:hover {
   box-shadow: 2px 2px 26px #dedede;
 }
 .article--teaser h4 {
-  color: #1b1e7b;
+  color: $dark-blue;
   font-weight: 900;
   line-height: 105%;
   margin: 1rem 0;
@@ -299,7 +299,7 @@ a:hover {
   font-weight: lighter;
 }
 .article--teaser .learn-more {
-  color: #1b1e7b;
+  color: $dark-blue;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -612,7 +612,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-  background-color: #1b1e7b;
+  background-color: $dark-blue;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -648,7 +648,7 @@ a:hover {
   padding-left: 1rem;
   overflow-y: auto;
   visibility: hidden;
-  background-color: #1b1e7b;
+  background-color: $dark-blue;
   transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -722,7 +722,7 @@ a:hover {
   overflow: hidden;
   padding-top: 6rem;
   padding-bottom: 17rem;
-  background: #1b1e7b;
+  background: $dark-blue;
 }
 
 .header .text-container {
@@ -1037,7 +1037,7 @@ a:hover {
 }
 
 .counter #counter .counter-value {
-  color: #1b1e7b;
+  color: $dark-blue;
   font-weight: 700;
   font-size: 3.25rem;
   line-height: 3.75rem;
@@ -1120,7 +1120,7 @@ a:hover {
 }
 
 .footer .fa-stack .fa-stack-1x {
-  color: #1b1e7b;
+  color: $dark-blue;
   transition: all 0.2s ease;
 }
 
@@ -1134,7 +1134,7 @@ a:hover {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-  color: #1b1e7b;
+  color: $dark-blue;
 }
 
 /*********************/
@@ -1167,13 +1167,13 @@ a.back-to-top {
   width: 42px;
   height: 42px;
   border-radius: 30px;
-  background: #1b1e7b url("../images/up-arrow.png") no-repeat center 47%;
+  background: $dark-blue url("../images/up-arrow.png") no-repeat center 47%;
   background-size: 18px 18px;
   text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-  background-color: #026cfe;
+  background-color: $blue;
 }
 
 /*************************/
@@ -1246,7 +1246,7 @@ a:hover.back-to-top {
   .navbar.top-nav-collapse {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    background-color: #1b1e7b;
+    background-color: $dark-blue;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
   }
 

@@ -27,6 +27,7 @@ $black:    #000 !default;
 
   // scss-docs-start color-variables
 $blue:    #00487C !default;
+$blue-dark: #13175b !default;
 $indigo:  #5D2E8C !default;
 $indigo-dark: #41337A !default;
 $purple:  #8F95D3 !default;
@@ -61,7 +62,7 @@ $colors: (
 // scss-docs-end color-variables
 $gray: #6c757d !default;
 $gray-dark: #343a40 !default;
-$primary: $indigo-dark;
+$primary: $dark-blue;
 $secondary: $gray;
 $success: $green;
 

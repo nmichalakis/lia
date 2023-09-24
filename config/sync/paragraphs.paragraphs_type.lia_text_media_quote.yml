@@ -1,10 +1,16 @@
 uuid: 31ddecaf-b97d-4f2c-8a8b-57fe6562918d
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_text_media_quote
 label: 'Lia Text Media Quote'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

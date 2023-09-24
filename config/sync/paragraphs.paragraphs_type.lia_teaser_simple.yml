@@ -1,10 +1,16 @@
 uuid: f46d2364-4817-451e-a785-962dabb54b58
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_teaser_simple
 label: 'Lia Teaser Simple'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

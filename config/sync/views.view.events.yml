@@ -527,7 +527,7 @@ display:
         type: normal
         title: Δράσεις
         description: ''
-        weight: -45
+        weight: -44
         enabled: true
         expanded: true
         menu_name: main

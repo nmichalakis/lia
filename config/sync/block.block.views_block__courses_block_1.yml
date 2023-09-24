@@ -1,0 +1,29 @@
+uuid: 5008e58a-68a5-4394-ae42-770a55522eee
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.courses
+  module:
+    - system
+    - views
+  theme:
+    - lia
+id: views_block__courses_block_1
+theme: lia
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:courses-block_1'
+settings:
+  id: 'views_block:courses-block_1'
+  label: 'Διαθέσιμα Μαθήματα'
+  label_display: visible
+  provider: views
+  views_label: 'Διαθέσιμα Μαθήματα'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/81

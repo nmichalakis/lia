@@ -1,10 +1,20 @@
 uuid: 8dd2fff5-3f84-4583-9af3-669100907dc8
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_header
 label: 'Lia Header'
 icon_uuid: null
 icon_default: null
 description: 'Header with waves effect on the bottom.'
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_background_style:
+    enabled: true
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true
+  liac_paragraph_main_style:
+    enabled: true

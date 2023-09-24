@@ -1,0 +1,60 @@
+uuid: aaa61786-c622-4f36-9ef4-3918ffea51ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.course.field_course_category
+    - field.field.node.course.field_course_description
+    - field.field.node.course.field_course_finish_button
+    - field.field.node.course.field_course_image
+    - field.field.node.course.field_course_label
+    - field.field.node.course.field_course_linear_progress
+    - field.field.node.course.field_course_module
+    - field.field.node.course.field_course_topics
+    - field.field.node.course.field_weight
+    - image.style.medium
+    - node.type.course
+  module:
+    - svg_image
+    - text
+    - user
+_core:
+  default_config_hash: PlR4anqWrF_I0rakvuzabSAEZMc0pMDjyAn0hZrXDrE
+id: node.course.teaser
+targetEntityType: node
+bundle: course
+mode: teaser
+content:
+  field_course_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_course_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  field_course_category: true
+  field_course_finish_button: true
+  field_course_label: true
+  field_course_linear_progress: true
+  field_course_module: true
+  field_course_topics: true
+  field_weight: true
+  links: true

@@ -1,10 +1,16 @@
 uuid: 48285db4-a34d-4e5c-8180-fb4bee540e99
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_section
 label: 'Lia Section'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

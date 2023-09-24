@@ -1,10 +1,16 @@
 uuid: f5259906-4e79-4492-9d72-01ef50bcf96a
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_description
 label: 'Lia Description (Body)'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

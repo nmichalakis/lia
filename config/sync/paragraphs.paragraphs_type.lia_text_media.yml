@@ -1,10 +1,16 @@
 uuid: 3511a9fb-6978-40cf-89ae-991c5bff4702
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_text_media
 label: 'Lia Text Media'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

@@ -1,10 +1,16 @@
 uuid: 9c0abf4a-cdea-4db1-9f38-6331d96d9807
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_highlight
 label: 'Lia Highlight'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

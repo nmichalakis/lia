@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.page.field_cc_page
     - node.type.page
   module:
-    - inline_entity_form
+    - paragraphs
     - path
 _core:
   default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
@@ -22,22 +22,23 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_cc_page:
-    type: inline_entity_form_complex
+    type: paragraphs
     weight: 121
     region: content
     settings:
-      form_mode: default
-      override_labels: false
-      label_singular: ''
-      label_plural: ''
-      allow_new: true
-      allow_existing: false
-      match_operator: CONTAINS
-      allow_duplicate: false
-      collapsible: false
-      collapsed: false
-      revision: false
-      removed_reference: optional
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
     third_party_settings: {  }
   path:
     type: path

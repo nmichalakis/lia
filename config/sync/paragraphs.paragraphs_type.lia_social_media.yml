@@ -1,10 +1,16 @@
 uuid: 1e9080fb-6d30-4c3c-a27e-5ce983aa15bb
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_social_media
 label: 'Lia Social Media'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

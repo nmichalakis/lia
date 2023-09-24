@@ -1,10 +1,16 @@
 uuid: a9dc4eb6-d5e3-40d6-97b0-f088a0529609
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - liac
 id: lia_events
 label: 'Lia Events'
 icon_uuid: null
 icon_default: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  liac_paragraph_button_style:
+    enabled: true
+  liac_paragraph_header_style:
+    enabled: true

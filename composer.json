@@ -56,6 +56,11 @@
         "sort-packages": true
     },
     "extra": {
+         "patches": {
+            "drupal/paragraphs": {
+                "The content/behavior tabs on the paragraphs widget don't render properly in Claro.": "https://www.drupal.org/files/issues/2022-08-25/3199551_26.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

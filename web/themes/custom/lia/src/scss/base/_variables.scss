@@ -26,17 +26,17 @@ $black:    #000 !default;
 // scss-docs-end gray-color-variables
 
   // scss-docs-start color-variables
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$indigo-dark: #1b1e7b !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
+$blue:    #00487C !default;
+$indigo:  #5D2E8C !default;
+$indigo-dark: #41337A !default;
+$purple:  #8F95D3 !default;
+$pink:    #F1C8DB !default;
+$red:     #F8333C !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+$yellow:  #FFBA35 !default;
+$green:   #48877D !default;
+$teal:    #44FFD2 !default;
+$cyan:    #0496FF !default;
 
 // scss-docs-start colors-map
 $colors: (
@@ -95,6 +95,9 @@ $dark:          $indigo-dark !default;
 @each $color_name,$color_value in $colors {
   .text-#{$color_name} {
     color: $color_value !important;
+  }
+  .bg--#{$color_name} {
+    background-color: $color_value !important;
   }
   .bg-alt-#{$color_name} {
     background-color: $color_value !important;

@@ -1,0 +1,55 @@
+.paragraph {
+  &--bg {
+    @each $color_name, $color_value in $colors {
+
+      &__#{$color_name} {
+        .header {
+            background-color: $color_value !important;
+          }
+        }
+    }
+  }
+
+  &--header {
+    @each $color_name, $color_value in $colors {
+      &__#{$color_name} {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          color: $color_value !important;
+        }
+      }
+    }
+  }
+
+  &--button {
+    @each $color_name, $color_value in $colors {
+      &__#{$color_name} {
+        .btn-solid-lg {
+          background-color: $color_value !important;
+          border-color: $color_value !important;
+           @if ($color_name == "yellow") {
+              color: $gray-900 !important;
+            }
+            @else {
+              color: $white !important;
+          }
+          &:hover,
+          &:focus,
+          &:active {
+            opacity: 0.75 !important;
+            @if ($color_name == "yellow") {
+              color: $gray-900 !important;
+            }
+            @else {
+              color: $white !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

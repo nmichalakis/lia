@@ -4,6 +4,7 @@
     "/components/offcanvas/offcanvas.css": "/components/offcanvas/offcanvas.css",
     "/components/block/block.css": "/components/block/block.css",
     "/css/main.style.css": "/css/main.style.css",
+    "/assets/images/wave.svg": "/assets/images/wave.svg",
     "/fonts/open-sans-v34-greek_latin-300.eot": "/fonts/open-sans-v34-greek_latin-300.eot",
     "/fonts/open-sans-v34-greek_latin-300.svg": "/fonts/open-sans-v34-greek_latin-300.svg",
     "/fonts/open-sans-v34-greek_latin-300.ttf": "/fonts/open-sans-v34-greek_latin-300.ttf",
@@ -58,6 +59,5 @@
     "/fonts/roboto-v30-greek_latin-regular.svg": "/fonts/roboto-v30-greek_latin-regular.svg",
     "/fonts/roboto-v30-greek_latin-regular.ttf": "/fonts/roboto-v30-greek_latin-regular.ttf",
     "/fonts/roboto-v30-greek_latin-regular.woff": "/fonts/roboto-v30-greek_latin-regular.woff",
-    "/fonts/roboto-v30-greek_latin-regular.woff2": "/fonts/roboto-v30-greek_latin-regular.woff2",
-    "/assets/images/wave.svg": "/assets/images/wave.svg"
+    "/fonts/roboto-v30-greek_latin-regular.woff2": "/fonts/roboto-v30-greek_latin-regular.woff2"
 }

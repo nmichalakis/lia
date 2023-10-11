@@ -55,12 +55,12 @@ h2 {
 }
 
 h3 {
-  color: $dark-blue;
+  color: $blue-dark;
   font: 600 1.75rem/2.375rem "Roboto", sans-serif;
 }
 
 h4 {
-  color: $dark-blue;
+  color: $blue-dark;
   font: 600 1.25rem/2rem "Roboto", sans-serif;
   line-height: 115%;
 }
@@ -172,7 +172,7 @@ a:hover {
   background-color: #026cfe;
 }
 .bg-navy-blue {
-  background-color: $dark-blue;
+  background-color: $blue-dark;
 }
 .blue {
   color: #026cfe;
@@ -287,7 +287,7 @@ a:hover {
   box-shadow: 2px 2px 26px #dedede;
 }
 .article--teaser h4 {
-  color: $dark-blue;
+  color: $blue-dark;
   font-weight: 900;
   line-height: 105%;
   margin: 1rem 0;
@@ -299,7 +299,7 @@ a:hover {
   font-weight: lighter;
 }
 .article--teaser .learn-more {
-  color: $dark-blue;
+  color: $blue-dark;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -612,7 +612,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-  background-color: $dark-blue;
+  background-color: $blue-dark;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -648,7 +648,7 @@ a:hover {
   padding-left: 1rem;
   overflow-y: auto;
   visibility: hidden;
-  background-color: $dark-blue;
+  background-color: $blue-dark;
   transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -722,7 +722,7 @@ a:hover {
   overflow: hidden;
   padding-top: 6rem;
   padding-bottom: 17rem;
-  background: $dark-blue;
+  background: $blue-dark;
 }
 
 .header .text-container {
@@ -1037,7 +1037,7 @@ a:hover {
 }
 
 .counter #counter .counter-value {
-  color: $dark-blue;
+  color: $blue-dark;
   font-weight: 700;
   font-size: 3.25rem;
   line-height: 3.75rem;
@@ -1120,7 +1120,7 @@ a:hover {
 }
 
 .footer .fa-stack .fa-stack-1x {
-  color: $dark-blue;
+  color: $blue-dark;
   transition: all 0.2s ease;
 }
 
@@ -1134,7 +1134,7 @@ a:hover {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-  color: $dark-blue;
+  color: $blue-dark;
 }
 
 /*********************/
@@ -1167,7 +1167,7 @@ a.back-to-top {
   width: 42px;
   height: 42px;
   border-radius: 30px;
-  background: $dark-blue url("../images/up-arrow.png") no-repeat center 47%;
+  background: $blue-dark url("../images/up-arrow.png") no-repeat center 47%;
   background-size: 18px 18px;
   text-indent: -9999px;
 }
@@ -1246,7 +1246,7 @@ a:hover.back-to-top {
   .navbar.top-nav-collapse {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    background-color: $dark-blue;
+    background-color: $blue-dark;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
   }
 

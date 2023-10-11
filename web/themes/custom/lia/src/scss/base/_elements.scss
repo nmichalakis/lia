@@ -69,3 +69,14 @@ footer.page__footer {
     margin: 0 auto;
   }
 }
+
+img.sponsors-logo {
+    max-width: 340px;
+    filter: grayscale(1.0);
+    &:hover,
+    &:focus,
+    &:active {
+      filter: grayscale(0.0);
+    }
+
+}

@@ -9305,9 +9305,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************!*\
   !*** ./src/scss/main.style.scss ***!
   \**********************************/
-/***/ (function() {
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n   ╷\n58 │   color: $dark-blue;\n   │          ^^^^^^^^^^\n   ╵\n  src/scss/_template_style.scss 58:10  @import\n  src/scss/main.style.scss 11:9        root stylesheet\n    at processResult (/var/www/html/web/themes/custom/lia/node_modules/webpack/lib/NormalModule.js:763:19)\n    at /var/www/html/web/themes/custom/lia/node_modules/webpack/lib/NormalModule.js:865:5\n    at /var/www/html/web/themes/custom/lia/node_modules/loader-runner/lib/LoaderRunner.js:400:11\n    at /var/www/html/web/themes/custom/lia/node_modules/loader-runner/lib/LoaderRunner.js:252:18\n    at context.callback (/var/www/html/web/themes/custom/lia/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/var/www/html/web/themes/custom/lia/node_modules/sass-loader/dist/index.js:56:5)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -9315,9 +9318,12 @@ throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugi
 /*!*****************************************!*\
   !*** ./src/components/block/block.scss ***!
   \*****************************************/
-/***/ (function() {
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n   ╷\n65 │ $primary: $dark-blue;\n   │           ^^^^^^^^^^\n   ╵\n  src/scss/base/_variables.scss 65:11  @import\n  src/scss/_init.scss 3:9              @import\n  src/components/block/block.scss 1:9  root stylesheet\n    at processResult (/var/www/html/web/themes/custom/lia/node_modules/webpack/lib/NormalModule.js:763:19)\n    at /var/www/html/web/themes/custom/lia/node_modules/webpack/lib/NormalModule.js:865:5\n    at /var/www/html/web/themes/custom/lia/node_modules/loader-runner/lib/LoaderRunner.js:400:11\n    at /var/www/html/web/themes/custom/lia/node_modules/loader-runner/lib/LoaderRunner.js:252:18\n    at context.callback (/var/www/html/web/themes/custom/lia/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/var/www/html/web/themes/custom/lia/node_modules/sass-loader/dist/index.js:56:5)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -9447,7 +9453,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/main.script": 0,
-/******/ 			"components/offcanvas/offcanvas": 0
+/******/ 			"components/offcanvas/offcanvas": 0,
+/******/ 			"components/block/block": 0,
+/******/ 			"css/main.style": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -9499,10 +9507,10 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["components/offcanvas/offcanvas"], function() { return __webpack_require__("./src/js/main.script.js"); })
-/******/ 	__webpack_require__.O(undefined, ["components/offcanvas/offcanvas"], function() { return __webpack_require__("./src/scss/main.style.scss"); })
-/******/ 	__webpack_require__.O(undefined, ["components/offcanvas/offcanvas"], function() { return __webpack_require__("./src/components/block/block.scss"); })
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["components/offcanvas/offcanvas"], function() { return __webpack_require__("./src/components/offcanvas/_offcanvas.scss"); })
+/******/ 	__webpack_require__.O(undefined, ["components/offcanvas/offcanvas","components/block/block","css/main.style"], function() { return __webpack_require__("./src/js/main.script.js"); })
+/******/ 	__webpack_require__.O(undefined, ["components/offcanvas/offcanvas","components/block/block","css/main.style"], function() { return __webpack_require__("./src/scss/main.style.scss"); })
+/******/ 	__webpack_require__.O(undefined, ["components/offcanvas/offcanvas","components/block/block","css/main.style"], function() { return __webpack_require__("./src/components/block/block.scss"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["components/offcanvas/offcanvas","components/block/block","css/main.style"], function() { return __webpack_require__("./src/components/offcanvas/_offcanvas.scss"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

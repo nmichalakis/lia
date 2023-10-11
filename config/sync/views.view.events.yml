@@ -340,6 +340,44 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  block_3:
+    id: block_3
+    display_title: 'Sidebar Events'
+    display_plugin: block
+    position: 3
+    display_options:
+      title: Δράσεις
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 2
+      style:
+        type: default
+        options:
+          row_class: mb-4
+          default_row_class: true
+          uses_fields: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser
+      defaults:
+        title: false
+        pager: false
+        style: false
+        row: false
+      display_description: ''
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   entity_reference_1:
     id: entity_reference_1
     display_title: 'Entity Reference Latest 10'

@@ -11341,6 +11341,13 @@ img.sponsors-logo:hover, img.sponsors-logo:focus, img.sponsors-logo:active {
   min-height: unset;
 }
 
+.dropdown-menu {
+  background-color: #FFBA35;
+}
+.dropdown-menu a {
+  color: #13175b;
+}
+
 .paragraph--bg__blue .header {
   background-color: #00487C !important;
 }

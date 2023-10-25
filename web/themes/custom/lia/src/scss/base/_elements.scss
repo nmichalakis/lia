@@ -84,3 +84,11 @@ img.sponsors-logo {
 .block--views-block--events-block-3 .event--teaser img {
   min-height: unset;
 }
+
+
+.dropdown-menu {
+  background-color: $warning;
+  a {
+    color: $primary;
+  }
+}

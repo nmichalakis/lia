@@ -131,15 +131,15 @@
 }
 
 .text-black {
-  color: #000 !important;
+  color: #2D2D2D !important;
 }
 
 .bg--black {
-  background-color: #000 !important;
+  background-color: #2D2D2D !important;
 }
 
 .bg-alt-black {
-  background-color: #000 !important;
+  background-color: #2D2D2D !important;
 }
 
 .text-white {
@@ -211,11 +211,11 @@
 }
 
 .bg-gray-500 {
-  background-color: #adb5bd !important;
+  background-color: #DEDCD9 !important;
 }
 
 .bg-border-gray-500 {
-  border: 1px solid #adb5bd !important;
+  border: 1px solid #DEDCD9 !important;
 }
 
 .bg-gray-600 {

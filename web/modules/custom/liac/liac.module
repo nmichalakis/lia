@@ -1,5 +1,7 @@
 <?php
 
+use Drupal\Core\Form\FormStateInterface;
+
 /**
  * @file
  * Primary module hooks for liac module.
@@ -20,3 +22,18 @@ function liac_theme()
     ],
     ];
 }
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function liac_form_contact_message_feedback_form_alter(&$form, FormStateInterface $form_state, $form_id)
+{
+    $form['subject']['widget'][0]['value']['#title'] = t('Θέμα');
+    $form['message']['widget'][0]['value']['#title'] = t('Κείμενο');
+    $form['name']['#title'] = t('Ονοματεπώνυμο');
+    $form['mail']['#title'] = t('Email');
+    $form['actions']['submit']['#value'] = t('Αποστολή');
+    $form['actions']['preview']['#access'] = FALSE;
+
+  }
+

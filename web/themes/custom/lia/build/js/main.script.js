@@ -3307,7 +3307,7 @@ __webpack_require__.r(__webpack_exports__);
       var currentDomain = window.location.hostname;
 
       // Select all links that do not belong to the current domain
-      $(context).find('.field--name-body a').once('external-links').each(function () {
+      $('.field--name-body a, p a').each(function () {
         var link = $(this);
         var linkDomain = link.prop('hostname');
 

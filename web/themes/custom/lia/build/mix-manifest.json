@@ -1,5 +1,6 @@
 {
     "/js/main.script.js": "/js/main.script.js",
+    "/js/open-link.js": "/js/open-link.js",
     "/components/block/block.js": "/components/block/block.js",
     "/components/offcanvas/offcanvas.css": "/components/offcanvas/offcanvas.css",
     "/components/block/block.css": "/components/block/block.css",

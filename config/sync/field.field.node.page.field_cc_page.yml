@@ -13,6 +13,7 @@ dependencies:
     - paragraphs.paragraphs_type.lia_header
     - paragraphs.paragraphs_type.lia_highlight
     - paragraphs.paragraphs_type.lia_icons_highlights_section
+    - paragraphs.paragraphs_type.lia_media
     - paragraphs.paragraphs_type.lia_news
     - paragraphs.paragraphs_type.lia_statistics
     - paragraphs.paragraphs_type.lia_teaser_simple
@@ -47,6 +48,7 @@ settings:
       lia_highlight: lia_highlight
       lia_icons_highlights_section: lia_icons_highlights_section
       lia_description: lia_description
+      lia_media: lia_media
       lia_teaser_simple: lia_teaser_simple
       lia_text_media_advanced: lia_text_media_advanced
     negate: 0
@@ -140,6 +142,9 @@ settings:
         enabled: false
       lia_icons_highlights_section:
         weight: 61
+        enabled: true
+      lia_media:
+        weight: 71
         enabled: true
       lia_news:
         weight: 57

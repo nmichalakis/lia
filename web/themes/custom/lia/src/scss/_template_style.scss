@@ -86,7 +86,7 @@ h6 {
   line-height: 1.75rem;
 }
 .navbar-dark {
-  background-color: $blue-dark !important;
+  background-color: $green !important;
 }
 .p-small {
   font-size: 0.875rem;
@@ -668,7 +668,7 @@ a:hover {
 .navbar .nav-item .nav-link {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  color: #c5c3f0;
+  color: $white;
   text-decoration: none;
   transition: all 0.2s ease;
 }

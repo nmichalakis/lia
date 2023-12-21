@@ -1,0 +1,31 @@
+uuid: 6078bd74-505a-4a52-9b7d-cb99038851d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_image
+    - media.type.image
+    - media.type.remote_video
+    - paragraphs.paragraphs_type.lia_media
+id: paragraph.lia_media.field_media_image
+field_name: field_media_image
+entity_type: paragraph
+bundle: lia_media
+label: 'Media Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

@@ -545,7 +545,7 @@ display:
           col_xs: col-12
           col_sm: col-sm-6
           col_md: col-md-4
-          col_lg: col-lg-3
+          col_lg: col-lg-4
           col_xl: none
       row:
         type: 'entity:node'
@@ -565,7 +565,7 @@ display:
         type: normal
         title: Δράσεις
         description: ''
-        weight: -44
+        weight: -43
         enabled: true
         expanded: true
         menu_name: main

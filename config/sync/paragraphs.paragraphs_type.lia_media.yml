@@ -1,0 +1,10 @@
+uuid: 2061ee2e-7251-4f85-b0b0-918f2594f39a
+langcode: en
+status: true
+dependencies: {  }
+id: lia_media
+label: 'Lia Media'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -11944,7 +11944,7 @@ h6, .h6 {
 }
 
 .navbar-dark {
-  background-color: #13175b !important;
+  background-color: #48877D !important;
 }
 
 .p-small {
@@ -12443,7 +12443,7 @@ a:hover {
 .navbar .nav-item .nav-link {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  color: #c5c3f0;
+  color: #fff;
   text-decoration: none;
   transition: all 0.2s ease;
 }

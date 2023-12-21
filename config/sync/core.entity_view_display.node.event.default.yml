@@ -7,9 +7,9 @@ dependencies:
     - field.field.node.event.field_date_range
     - field.field.node.event.field_event_category
     - field.field.node.event.field_media_image
+    - image.style.event_full_d
     - node.type.event
   module:
-    - datetime_range
     - media
     - nomarkup
     - text
@@ -22,7 +22,7 @@ content:
   addtoany:
     settings: {  }
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
   body:
     type: text_default
@@ -32,16 +32,6 @@ content:
       nomarkup:
         enabled: true
         separator: '|'
-    weight: 4
-    region: content
-  field_date_range:
-    type: daterange_default
-    label: inline
-    settings:
-      timezone_override: ''
-      format_type: medium
-      separator: '-'
-    third_party_settings: {  }
     weight: 3
     region: content
   field_event_category:
@@ -60,7 +50,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: event_full_d
       image_loading:
         attribute: lazy
     third_party_settings:
@@ -74,4 +64,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_date_range: true

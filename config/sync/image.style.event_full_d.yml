@@ -1,0 +1,15 @@
+uuid: 63fff227-6b5c-4c01-90ec-f3d2eba4e3da
+langcode: en
+status: true
+dependencies: {  }
+name: event_full_d
+label: 'Event Full Page'
+effects:
+  1ee593de-d8d0-4bba-897a-d793f52a48b1:
+    uuid: 1ee593de-d8d0-4bba-897a-d793f52a48b1
+    id: image_scale
+    weight: 1
+    data:
+      width: 1300
+      height: null
+      upscale: true

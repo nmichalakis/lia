@@ -22,8 +22,8 @@
 
   {% block content %}
     {{ content.field_media_image }}
-    <small class="py-3">{{ node.getCreatedTime|format_date('medium') }}</small>
-    <h4{{title_attributes}}>
+    {# <small class="py-3">{{ node.getCreatedTime|format_date('medium') }}</small> #}
+    <h4{{title_attributes.addClass('mt-2')}}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h4>
 

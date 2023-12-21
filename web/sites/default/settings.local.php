@@ -143,6 +143,5 @@ $settings['file_scan_ignore_directories'] = [
 
 
 // Set $settings['config_sync_directory'] if not set in settings.php.
-if (empty($settings['config_sync_directory'])) {
-  $settings['config_sync_directory'] = '../config';
-}
+$settings['config_sync_directory'] = '../config/sync';
+

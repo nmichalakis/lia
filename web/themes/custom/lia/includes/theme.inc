@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @file
+ */
+
 use Drupal\node\Entity\Node;
 
 /**
@@ -45,16 +49,17 @@ function lia_library_info_build() {
   return $libraries;
 }
 
-
 /**
  * Implements hook_preprocess_HOOK() for page templates.
  */
 function lia_preprocess_page(&$variables) {
   $current_page = \Drupal::routeMatch()->getParameter('node');
   if ($current_page instanceof Node && $current_page->getType() === 'page') {
+    if (!isset($variables['page']['content']['lia_page_title'])) {
+      return;
+    }
     $page_title_block = $variables['page']['content']['lia_page_title'];
     unset($variables['page']['content']['lia_page_title']);
     $variables['page']['header'] = $page_title_block;
-
   }
 }

@@ -11219,20 +11219,9 @@ h4,
 .h4,
 h5,
 .h5 {
-  color: #41337A;
-}
-h1 a, .h1 a,
-h1.page-title a,
-h2 a,
-.h2 a,
-h3 a,
-.h3 a,
-h4 a,
-.h4 a,
-h5 a,
-.h5 a {
-  color: #41337A;
-  text-decoration: none;
+  color: #48877D a;
+  color-color: #48877D;
+  color-text-decoration: none;
 }
 
 .paragraph--type--lia-highlight--simple {

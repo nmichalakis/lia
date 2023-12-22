@@ -55,7 +55,9 @@
     {% block content %}
       <h3>{{ content.field_title }}</h3>
       {{ content.field_description }}
-      <a class="btn-solid-reg" href="btn_link">{{ btn_title }}</a>
+      {% if btn_title and btn_link %}
+        <a class="btn-solid-reg" href="{{ btn_link }}">{{ btn_title }}</a>
+      {% endif %}
     {% endblock %}
   </div>
 {% endblock paragraph %}

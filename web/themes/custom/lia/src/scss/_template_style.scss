@@ -1458,3 +1458,21 @@ a:hover.back-to-top {
   /* end of contact */
 }
 /* end of min-width 1200px */
+
+// @include media-breakpoint-up(md) {
+  .paragraph--button__{
+
+    &full-width {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      .container {
+        padding-left: calc(var(--bs-gutter-x) * 1);
+        padding-right: calc(var(--bs-gutter-x) * 1);
+      }
+    }
+  }
+// }

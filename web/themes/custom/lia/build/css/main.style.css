@@ -13205,5 +13205,17 @@ a:hover.back-to-top {
   /* end of contact */
 }
 /* end of min-width 1200px */
+.paragraph--button__full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.paragraph--button__full-width .container {
+  padding-left: calc(var(--bs-gutter-x) * 1);
+  padding-right: calc(var(--bs-gutter-x) * 1);
+}
 
 /*# sourceMappingURL=main.style.css.map*/

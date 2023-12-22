@@ -77,3 +77,18 @@ function lia_preprocess_paragraph__lia_social_media(&$variables) {
   $icon = $paragraph->get('field_icon')->first()->getValue();
   $variables['icon'] = $icon;
 }
+
+
+/**
+ * Implements template_preprocess_paragraph().
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An array of elements to display in view mode.
+ *   - paragraph: The paragraph object.
+ *   - view_mode: View mode; e.g., 'full', 'teaser'...
+ */
+function lia_preprocess_paragraph__default(&$variables) {
+  $variables['content']['#prefix'] = '<div class="container">';
+  $variables['content']['#suffix'] = '</div>';
+}

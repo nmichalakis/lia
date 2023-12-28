@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.lia_library_link.field_category_link
     - field.field.paragraph.lia_library_link.field_cta_link
+    - field.field.paragraph.lia_library_link.field_highlight_marker_text
     - paragraphs.paragraphs_type.lia_library_link
   module:
     - link
@@ -18,7 +19,7 @@ content:
     type: link_separate
     label: hidden
     settings:
-      trim_length: 80
+      trim_length: 255
       url_only: false
       url_plain: false
       rel: nofollow
@@ -32,3 +33,4 @@ content:
     region: content
 hidden:
   field_category_link: true
+  field_highlight_marker_text: true

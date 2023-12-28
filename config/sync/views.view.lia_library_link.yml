@@ -6,6 +6,7 @@ dependencies:
     - paragraphs.paragraphs_type.lia_library_link
   module:
     - paragraphs
+    - views_bootstrap
 id: lia_library_link
 label: 'Lia Library Link'
 module: views
@@ -174,12 +175,16 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       style:
-        type: default
+        type: views_bootstrap_grid
         options:
-          grouping: {  }
-          row_class: ''
+          row_class: mb-grid
           default_row_class: true
           uses_fields: false
+          col_xs: col-12
+          col_sm: col-sm-6
+          col_md: col-md-4
+          col_lg: none
+          col_xl: none
       row:
         type: 'entity:paragraph'
         options:

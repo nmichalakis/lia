@@ -1,0 +1,29 @@
+uuid: 5881c607-e69a-4114-916e-2168595f9fbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_category_link
+    - paragraphs.paragraphs_type.lia_library_link
+    - taxonomy.vocabulary.library_link
+id: paragraph.lia_library_link.field_category_link
+field_name: field_category_link
+entity_type: paragraph
+bundle: lia_library_link
+label: Category
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      library_link: library_link
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

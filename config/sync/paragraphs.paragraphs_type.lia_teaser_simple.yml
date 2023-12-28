@@ -14,3 +14,7 @@ behavior_plugins:
     enabled: true
   liac_paragraph_header_style:
     enabled: true
+  liac_paragraph_main_style:
+    enabled: true
+  liac_paragraph_width_style:
+    enabled: true

@@ -1,12 +1,12 @@
 uuid: 160bbb8c-ca1f-4ebf-9738-9df0f4e6607a
 langcode: en
-status: true
+status: false
 dependencies: {  }
 _core:
   default_config_hash: nab3Iq515AlmliJ1IFoo-lqIfK9OOzpD_QwUivPOeTI
 id: lesson_checklist_result
 label: 'Checklist result'
+uid: true
 created: true
 changed: true
-uid: true
 title: false

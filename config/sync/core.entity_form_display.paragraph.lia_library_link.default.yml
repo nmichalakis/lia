@@ -1,0 +1,32 @@
+uuid: f956660f-5a0c-4bc9-b987-37b6f4cc453a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.lia_library_link.field_category_link
+    - field.field.paragraph.lia_library_link.field_cta_link
+    - paragraphs.paragraphs_type.lia_library_link
+  module:
+    - link
+id: paragraph.lia_library_link.default
+targetEntityType: paragraph
+bundle: lia_library_link
+mode: default
+content:
+  field_category_link:
+    type: options_buttons
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_cta_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

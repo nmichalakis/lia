@@ -1,5 +1,8 @@
 // Global elements styling, e.g. for headings, buttons, links, etc.
 // -----------------------------------------------------------------------------
+body {
+  overflow-x: hidden;
+}
 h1,
 h1.page-title,
 h2,

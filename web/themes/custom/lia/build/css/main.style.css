@@ -11209,6 +11209,10 @@ textarea.form-control-lg {
   font-weight: 400;
   src: url("../fonts/didact-gothic-v20-greek_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+body {
+  overflow-x: hidden;
+}
+
 h1, .h1,
 h1.page-title,
 h2,

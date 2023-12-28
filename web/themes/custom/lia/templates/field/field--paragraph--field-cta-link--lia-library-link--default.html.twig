@@ -38,11 +38,10 @@
  */
 #}
 
-<a class="text-black title" href="{{ element[0]['#url']}}">{{ element[0]['#title']}}</a>
+<a target="_blank" class="text-black title" href="{{ element[0]['#url']}}">{{ element[0]['#title']}}</a>
 <small>{{ element['#object'].field_highlight_marker_text[0].value }}</small>
 <div class="d-flex justify-content-end">
-  <a class="btn btn-warning text-white w-25" href="{{ element[0]['#url']}}">
+  <a target="_blank" class="btn btn-warning text-white w-25" href="{{ element[0]['#url']}}">
     <i class="fas fa-link"></i>
   </a>
 </div>
-

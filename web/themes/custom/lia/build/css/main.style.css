@@ -11687,6 +11687,25 @@ img.sponsors-logo:hover, img.sponsors-logo:focus, img.sponsors-logo:active {
   color: #212529 !important;
 }
 
+.paragraph--type--lia-library-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #e9ecef;
+  height: 100%;
+  min-height: 220px;
+  word-break: break-word;
+  border: 1px solid #DEDCD9;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px #ced4da;
+}
+.paragraph--type--lia-library-link .title {
+  min-height: 50px;
+}
+.paragraph--type--lia-library-link a {
+  text-decoration: none;
+  display: block;
+}
 #drupal-off-canvas,
 #drupal-off-canvas-wrapper,
 #drupal-off-canvas:not(.drupal-off-canvas-reset) {

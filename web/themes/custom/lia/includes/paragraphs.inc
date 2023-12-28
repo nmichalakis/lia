@@ -78,6 +78,27 @@ function lia_preprocess_paragraph__lia_social_media(&$variables) {
   $variables['icon'] = $icon;
 }
 
+/**
+ * Implements template_preprocess_paragraph().
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An array of elements to display in view mode.
+ *   - paragraph: The paragraph object.
+ *   - view_mode: View mode; e.g., 'full', 'teaser'...
+ */
+function lia_preprocess_paragraph__lia_library_link_group(&$variables) {
+  $vid = 'library_link';
+  $terms = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadTree($vid);
+  foreach ($terms as $term) {
+    $term_data[] = [
+      'id' => $term->tid,
+      'name' => $term->name,
+    ];
+  }
+  $variables['terms'] = $term_data;
+
+}
 
 /**
  * Implements template_preprocess_paragraph().

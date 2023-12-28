@@ -11678,6 +11678,11 @@ img.sponsors-logo:hover, img.sponsors-logo:focus, img.sponsors-logo:active {
   color: #fff !important;
 }
 
+.paragraph--bg__green .btn-solid-lg {
+  background-color: #FFBA35 !important;
+  color: #212529 !important;
+}
+
 #drupal-off-canvas,
 #drupal-off-canvas-wrapper,
 #drupal-off-canvas:not(.drupal-off-canvas-reset) {

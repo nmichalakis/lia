@@ -12042,10 +12042,6 @@ a:hover {
   content: " ";
 }
 
-.bg-parallax h4, .bg-parallax .h4 {
-  color: #00487C !important;
-}
-
 .bg-alpha {
   background-image: url(../images/bg-alpha.jpg);
 }
@@ -12198,7 +12194,7 @@ a:hover {
 }
 
 .article--teaser .learn-more {
-  color: #13175b;
+  color: #48877D;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -12232,9 +12228,9 @@ a:hover {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid #00487C;
+  border: 1px solid #48877D;
   border-radius: 32px;
-  background-color: #00487C;
+  background-color: #48877D;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -12244,9 +12240,9 @@ a:hover {
 }
 
 .btn-solid-reg:hover {
-  border: 1px solid #00487C;
+  border: 1px solid #48877D;
   background-color: transparent;
-  color: #00487C;
+  color: #48877D;
   text-decoration: none;
 }
 

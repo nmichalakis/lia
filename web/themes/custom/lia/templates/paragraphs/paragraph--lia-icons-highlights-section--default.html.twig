@@ -51,7 +51,7 @@
   <div{{attributes.addClass(classes)}}>
     {% block content %}
       <div class="icons-highlights__header d-flex flex-column justify-content-center align-items-center mt-5 mb-3">
-        <h4>{{ content.field_title }}</h4>
+        <h2>{{ content.field_title }}</h2>
         {{ content.field_description}}
       </div>
       {{ content|without('field_title','field_description') }}

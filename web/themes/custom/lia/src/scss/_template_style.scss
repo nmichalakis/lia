@@ -159,9 +159,6 @@ a:hover {
   height: 100%;
   content: " ";
 }
-.bg-parallax h4 {
-  color: $blue !important;
-}
 .bg-alpha {
   background-image: url(../images/bg-alpha.jpg);
 }
@@ -298,7 +295,7 @@ a:hover {
   font-weight: lighter;
 }
 .article--teaser .learn-more {
-  color: $blue-dark;
+  color: $green;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -331,9 +328,9 @@ a:hover {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid $blue;
+  border: 1px solid $green;
   border-radius: 32px;
-  background-color: $blue;
+  background-color: $green;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -343,9 +340,9 @@ a:hover {
 }
 
 .btn-solid-reg:hover {
-  border: 1px solid $blue;
+  border: 1px solid $green;
   background-color: transparent;
-  color: $blue;
+  color: $green;
   text-decoration: none;
 }
 

@@ -21,7 +21,10 @@
 <a href="{{ path }}" class="navbar-brand d-flex align-items-center font-weight-bold {{ utility_classes }}" aria-label="{{ text }}">
 
     {% if image %}
-      {{ navbar_brand.image(image, 295, height, alt) }}
+      {{ navbar_brand.image(image, 295, height, alt, 'me-2') }}
+    {% endif %}
+    {% if side_image %}
+      {{ navbar_brand.image(side_image, 120, height, alt, 'px-2') }}
     {% endif %}
     {# {{ text }} #}
   </a>
@@ -34,8 +37,7 @@
   </span>
 {% endif %}
 
-{% macro image(src, width, height, alt) %}
+{% macro image(src, width, height, alt, class) %}
   {% set height_attr = height != 'auto' ? 'height="' ~ height ~ '"'  %}
-
-  <img src="{{ src }}" width="{{ width|default(30) }}" {{ height_attr }} alt="{{ alt|default('') }}" class="me-2" />
+  <img src="{{ src }}" width="{{ width|default(30) }}" {{ height_attr }} alt="{{ alt|default('') }}" class="{{class}}" />
 {% endmacro %}

@@ -17,17 +17,21 @@
 {% import _self as navbar_brand %}
 {% set utility_classes = utility_classes|join(' ') %}
 
+<div class="d-flex align-items-center">
 {% if path %}
 <a href="{{ path }}" class="navbar-brand d-flex align-items-center font-weight-bold {{ utility_classes }}" aria-label="{{ text }}">
 
     {% if image %}
       {{ navbar_brand.image(image, 295, height, alt, 'me-2') }}
     {% endif %}
-    {% if side_image %}
-      {{ navbar_brand.image(side_image, 120, height, alt, 'px-2') }}
-    {% endif %}
     {# {{ text }} #}
   </a>
+{% if side_image %}
+<a href="https://www.lesvos-chamber.com/" target="_blank" aria-label="ΕΠΙΜΕΛΗΤΗΡΙΟ ΛΕΣΒΟΥ | PORTAL LESVOS">
+    {{ navbar_brand.image(side_image, 120, height, alt, '') }}
+  </a>
+{% endif %}
+
 {% else %}
   <span class="navbar-brand h1 mb-0 {{ utility_classes }}" aria-label="{{ text }}">
     {% if image %}
@@ -36,7 +40,7 @@
     {{ text }}
   </span>
 {% endif %}
-
+</div>
 {% macro image(src, width, height, alt, class) %}
   {% set height_attr = height != 'auto' ? 'height="' ~ height ~ '"'  %}
   <img src="{{ src }}" width="{{ width|default(30) }}" {{ height_attr }} alt="{{ alt|default('') }}" class="{{class}}" />

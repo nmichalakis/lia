@@ -13,6 +13,7 @@ dependencies:
     - node
     - taxonomy
     - user
+    - views_autocomplete_filters
     - views_bootstrap
 id: news
 label: 'Article - News'
@@ -185,7 +186,21 @@ display:
     display_plugin: block
     position: 2
     display_options:
+      defaults:
+        footer: false
       display_description: ''
+      footer:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          empty: false
+          content: "<div class=\"d-flex align-items-center justify-content-center mt-5\">\r\n<a class=\"btn-solid-lg\" href=\"/news\">Προβολή όλων</a>\r\n</div>"
+          tokenize: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1

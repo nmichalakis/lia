@@ -19,17 +19,14 @@
 <article{{attributes.addClass(classes)}}>
   {{ title_prefix }}
   {{ title_suffix }}
-
   {% block content %}
     {{ content.field_media_image }}
-    {# <small class="py-3">{{ node.getCreatedTime|format_date('medium') }}</small> #}
+    <time datetime="{{date_end}}" class="d-inline-block mt-2 event-date bg {{ event_badge }}">{{ date_end }}</time>
+    {% if event_past %}
+      <small class="d-inline-block mt-2 bg-gray-400 event-date--expired ">{{ 'ολοκληρώθηκε'|t }}</small>
+    {% endif %}
     <h4{{title_attributes.addClass('mt-2')}}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h4>
-
   {% endblock %}
 </article>
-
-{# {{ dd(node.field_date_range.0.value) }}
-
-{{ dd() }} #}

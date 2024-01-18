@@ -3,7 +3,7 @@
     "/components/block/block.js": "/components/block/block.js",
     "/components/offcanvas/offcanvas.css": "/components/offcanvas/offcanvas.css",
     "/components/block/block.css": "/components/block/block.css",
-    "/css/main.style.css": "/css/main.style.css",
+    "/assets/images/side-logo.png": "/assets/images/side-logo.png",
     "/assets/images/sponsors-logos.jpg": "/assets/images/sponsors-logos.jpg",
     "/assets/images/wave.svg": "/assets/images/wave.svg",
     "/fonts/didact-gothic-v20-greek_latin-regular.woff2": "/fonts/didact-gothic-v20-greek_latin-regular.woff2",
@@ -68,5 +68,6 @@
     "/fonts/roboto-v30-greek_latin-regular.svg": "/fonts/roboto-v30-greek_latin-regular.svg",
     "/fonts/roboto-v30-greek_latin-regular.ttf": "/fonts/roboto-v30-greek_latin-regular.ttf",
     "/fonts/roboto-v30-greek_latin-regular.woff": "/fonts/roboto-v30-greek_latin-regular.woff",
-    "/fonts/roboto-v30-greek_latin-regular.woff2": "/fonts/roboto-v30-greek_latin-regular.woff2"
+    "/fonts/roboto-v30-greek_latin-regular.woff2": "/fonts/roboto-v30-greek_latin-regular.woff2",
+    "/css/main.style.css": "/css/main.style.css"
 }

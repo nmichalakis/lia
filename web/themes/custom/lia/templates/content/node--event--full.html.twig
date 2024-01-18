@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Template for a Node.
+ */
+#}
+{%
+  set classes = [
+  'node',
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+  node.bundle|clean_class,
+  node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
+]
+%}
+<article{{attributes.addClass(classes)}}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+
+  {% block content %}
+    {% if not page %}
+      <h2{{title_attributes}}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+    {% endif %}
+
+    <div{{content_attributes}}>
+      {{ content.field_media_image}}
+      <div class="d-flex justify-content-between my-3">
+        {{ content.field_event_category }}
+        {{ content.field_date_range }}
+      </div>
+      {{ content | without('field_event_category','field_date_range','field_media_image') }}
+    </div>
+  {% endblock %}
+</article>

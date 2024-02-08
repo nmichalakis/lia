@@ -11364,7 +11364,7 @@ img.sponsors-logo:hover, img.sponsors-logo:focus, img.sponsors-logo:active {
   background-color: #FFBA35;
 }
 .dropdown-menu a {
-  color: #48877D;
+  color: #212529;
 }
 
 .event--teaser .event-date {
@@ -11393,6 +11393,19 @@ img.sponsors-logo:hover, img.sponsors-logo:focus, img.sponsors-logo:active {
   padding-right: 5px;
   padding-left: 5px;
   line-height: 35px;
+}
+
+#anu-application h1, #anu-application .h1 {
+  display: none !important;
+}
+
+#anu-application > .MuiBox-root.jss2 {
+  margin: 0;
+  padding-top: 0;
+}
+
+#anu-application > .MuiBox-root.jss2 > .MuiContainer-maxWidthLg {
+  padding-left: 0;
 }
 
 .paragraph--bg__blue .header {

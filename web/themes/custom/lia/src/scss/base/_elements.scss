@@ -93,7 +93,7 @@ img.sponsors-logo {
 .dropdown-menu {
   background-color: $warning;
   a {
-    color: $primary;
+    color: $gray-900;
   }
 }
 
@@ -127,4 +127,18 @@ img.sponsors-logo {
       line-height: 35px;
 
     }
+}
+
+#anu-application  h1 {
+  display: none !important;
+}
+
+// Target the next sibling of #anu-application and remove the margin and padding
+#anu-application > .MuiBox-root.jss2 {
+  margin: 0;
+  padding-top: 0;
+}
+
+#anu-application > .MuiBox-root.jss2  > .MuiContainer-maxWidthLg {
+  padding-left: 0;
 }

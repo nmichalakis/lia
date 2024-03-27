@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_update_N().
+ */
+function liac_update_9001() {
+  // Load paragraph with id 220 and delete it.
+  $paragraph = \Drupal\paragraphs\Entity\Paragraph::load(220);
+  if ($paragraph) {
+    $paragraph->delete();
+  }
+}

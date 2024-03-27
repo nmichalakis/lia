@@ -1,0 +1,10 @@
+uuid: f4e66b7e-971a-4848-bf2c-0850d527db4f
+langcode: en
+status: true
+dependencies: {  }
+id: lia_modal
+label: 'Lia modal'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

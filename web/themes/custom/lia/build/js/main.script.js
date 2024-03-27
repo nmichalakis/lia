@@ -3317,6 +3317,11 @@ __webpack_require__.r(__webpack_exports__);
           link.attr('target', '_blank');
         }
       });
+      $(document).ready(function () {
+        $(".modalButton").click(function () {
+          $('.paragraph--type--lia-modal .modal').modal("show");
+        });
+      });
     }
   };
 })(jQuery, Drupal, window, document);

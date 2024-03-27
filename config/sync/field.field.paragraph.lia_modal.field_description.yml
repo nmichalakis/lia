@@ -1,0 +1,26 @@
+uuid: df59e141-0564-476f-95e6-e993058d628f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.lia_modal
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - minimal_html
+id: paragraph.lia_modal.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: lia_modal
+label: 'Description - Body'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -27,7 +27,7 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
-        "drupal/devel": "^5.0",
+        "drupal/entity_usage": "^2.0@beta",
         "drupal/fontawesome": "^2.25",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
@@ -57,9 +57,6 @@
     },
     "extra": {
          "patches": {
-            "drupal/paragraphs": {
-                "The content/behavior tabs on the paragraphs widget don't render properly in Claro.": "https://www.drupal.org/files/issues/2022-08-25/3199551_26.patch"
-            }
         },
         "drupal-scaffold": {
             "locations": {
@@ -116,5 +113,9 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/devel": "^5.1",
+        "drupal/stage_file_proxy": "^2.1"
     }
 }

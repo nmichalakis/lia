@@ -1,7 +1,15 @@
 uuid: ac6f5e9d-d0f4-41d7-b6ed-12b943904c70
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - paragraphs_selection
+third_party_settings:
+  paragraphs_selection:
+    fields:
+      -
+        id: paragraph.lia_library_link_group.field_link
+        weight: 73
 id: lia_library_link
 label: 'Lia Library Link'
 icon_uuid: null

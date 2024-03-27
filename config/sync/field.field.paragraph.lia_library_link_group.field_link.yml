@@ -26,129 +26,132 @@ settings:
     negate: 0
     target_bundles_drag_drop:
       checklist_item:
-        weight: 43
-        enabled: false
-      course_category:
         weight: 44
         enabled: false
-      course_modules:
+      course_category:
         weight: 45
         enabled: false
-      lesson_audio:
+      course_modules:
         weight: 46
         enabled: false
-      lesson_checklist:
+      from_library:
         weight: 47
         enabled: false
-      lesson_divider:
+      lesson_audio:
         weight: 48
         enabled: false
-      lesson_embedded_video:
+      lesson_checklist:
         weight: 49
         enabled: false
-      lesson_footnotes:
+      lesson_divider:
         weight: 50
         enabled: false
-      lesson_heading:
+      lesson_embedded_video:
         weight: 51
         enabled: false
-      lesson_highlight:
+      lesson_footnotes:
         weight: 52
         enabled: false
-      lesson_highlight_marker:
+      lesson_heading:
         weight: 53
         enabled: false
-      lesson_image:
+      lesson_highlight:
         weight: 54
         enabled: false
-      lesson_image_thumbnail:
+      lesson_highlight_marker:
         weight: 55
         enabled: false
-      lesson_image_wide:
+      lesson_image:
         weight: 56
         enabled: false
-      lesson_img_list:
+      lesson_image_thumbnail:
         weight: 57
         enabled: false
-      lesson_img_list_item:
+      lesson_image_wide:
         weight: 58
         enabled: false
-      lesson_list:
+      lesson_img_list:
         weight: 59
         enabled: false
-      lesson_resource:
+      lesson_img_list_item:
         weight: 60
         enabled: false
-      lesson_section:
+      lesson_list:
         weight: 61
         enabled: false
-      lesson_table:
+      lesson_resource:
         weight: 62
         enabled: false
-      lesson_text:
+      lesson_section:
         weight: 63
         enabled: false
-      lia_cta:
+      lesson_table:
         weight: 64
         enabled: false
-      lia_description:
+      lesson_text:
         weight: 65
         enabled: false
-      lia_events:
+      lia_cta:
         weight: 66
         enabled: false
-      lia_forms:
+      lia_description:
         weight: 67
         enabled: false
-      lia_grouped_sections:
+      lia_events:
         weight: 68
         enabled: false
-      lia_header:
+      lia_forms:
         weight: 69
         enabled: false
-      lia_highlight:
+      lia_grouped_sections:
         weight: 70
         enabled: false
-      lia_icon_highlight:
+      lia_header:
+        weight: 71
+        enabled: false
+      lia_highlight:
         weight: 72
         enabled: false
+      lia_icon_highlight:
+        weight: 74
+        enabled: false
       lia_icons_highlights_section:
-        weight: 71
+        weight: 73
         enabled: false
       lia_library_link:
         weight: 73
         enabled: true
       lia_library_link_group:
-        weight: 74
-        enabled: false
-      lia_media:
-        weight: 75
-        enabled: false
-      lia_news:
         weight: 76
         enabled: false
-      lia_section:
+      lia_media:
         weight: 77
         enabled: false
-      lia_social_media:
+      lia_news:
         weight: 78
         enabled: false
-      lia_statistic:
+      lia_section:
         weight: 79
         enabled: false
-      lia_statistics:
+      lia_social_media:
         weight: 80
         enabled: false
-      lia_teaser_simple:
+      lia_statistic:
         weight: 81
         enabled: false
-      lia_text_media:
+      lia_statistics:
         weight: 82
         enabled: false
-      lia_text_media_advanced:
+      lia_teaser_simple:
         weight: 83
         enabled: false
-      lia_text_media_quote:
+      lia_text_media:
         weight: 84
+        enabled: false
+      lia_text_media_advanced:
+        weight: 85
+        enabled: false
+      lia_text_media_quote:
+        weight: 86
         enabled: false
 field_type: entity_reference_revisions

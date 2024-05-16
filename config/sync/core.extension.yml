@@ -52,6 +52,7 @@ module:
   media_library_edit: 0
   menu_link_content: 0
   menu_ui: 0
+  menus_attribute: 0
   mysql: 0
   node: 0
   nomarkup: 0

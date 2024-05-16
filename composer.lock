@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92a012f0938c05a1ae7706ffa8edd1fc",
+    "content-hash": "6d6b664324c7b6827fab945db293cca2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3034,6 +3034,54 @@
             "support": {
                 "source": "https://www.drupal.org/project/jquery_ui_touch_punch",
                 "issues": "https://www.drupal.org/project/issues/jquery_ui_touch_punch"
+            }
+        },
+        {
+            "name": "drupal/media_library_edit",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_library_edit.git",
+                "reference": "3.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_library_edit-3.0.3.zip",
+                "reference": "3.0.3",
+                "shasum": "f5d28e121bc2f21762d446553d61d48151d1b391"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.3",
+                    "datestamp": "1706394959",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "ahebrank",
+                    "homepage": "https://www.drupal.org/user/3190515"
+                }
+            ],
+            "description": "Add an edit button to the Media Library widget when an item is selected.",
+            "homepage": "https://www.drupal.org/project/media_library_edit",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/media_library_edit",
+                "issues": "https://www.drupal.org/project/issues/media_library_edit"
             }
         },
         {
@@ -9321,7 +9369,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/components": 10
+        "drupal/components": 10,
+        "drupal/entity_usage": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

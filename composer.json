@@ -29,6 +29,7 @@
         "drupal/core-recommended": "^9.5",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/fontawesome": "^2.25",
+        "drupal/media_library_edit": "^3.0",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.11",
         "drupal/radix": "^5.0",

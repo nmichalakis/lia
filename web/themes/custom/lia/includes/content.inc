@@ -18,6 +18,6 @@ function lia_preprocess_node__event(&$variables) {
     $variables['event_past'] = TRUE;
     $variables['attributes']['class'][] = 'event--past';
   }
-  $variables['event_badge'] = $variables['event_past'] ? 'bg-warning' : 'bg-success';
+  $variables['event_badge'] = $variables['event_past'] ? 'bg-warning' : 'bg-success text-white';
   $variables['date_end'] = date('d-m-Y', $date_range_to_timestamp);
 }

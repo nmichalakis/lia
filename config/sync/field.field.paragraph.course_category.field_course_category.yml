@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.paragraph.field_course_category
     - paragraphs.paragraphs_type.course_category
-    - taxonomy.vocabulary.course_category
 _core:
   default_config_hash: 9mwfNvTKFRjHSK_AQF3RwEjQV4_1QedxmhJ7Jg5DN4M
 id: paragraph.course_category.field_course_category
@@ -21,8 +20,7 @@ default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
-    target_bundles:
-      course_category: course_category
+    target_bundles: {  }
     sort:
       field: name
       direction: asc

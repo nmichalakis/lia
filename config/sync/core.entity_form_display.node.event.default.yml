@@ -35,10 +35,13 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_date_range:
-    type: daterange_default
+    type: daterange_datelist
     weight: 7
     region: content
-    settings: {  }
+    settings:
+      increment: 15
+      date_order: YMD
+      time_type: '24'
     third_party_settings: {  }
   field_event_category:
     type: options_buttons

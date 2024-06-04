@@ -61,7 +61,6 @@ module:
   path_alias: 0
   rest: 0
   rest_entity_recursive: 0
-  rest_paragraphs_recursive: 0
   search: 0
   serialization: 0
   shortcut: 0
